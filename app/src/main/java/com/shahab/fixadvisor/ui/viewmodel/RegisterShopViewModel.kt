@@ -133,7 +133,7 @@ class RegisterShopViewModel(
                     phone = phoneFlow.value,
                     whatsapp = whatsappFlow.value,
                     websiteUrl = websiteUrlFlow.value,
-                    googleMapsUrl = googleMapsUrl.value,
+                    googleMapsUrl = googleMapsUrlFlow.value,
                     services = _services.value.toList(),
                     prices = parsedPrices,
                     openingHours = openingHoursFlow.value,
