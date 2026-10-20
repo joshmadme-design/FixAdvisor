@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- FixAdvisor is online by design (reviews are public), so INTERNET is required
+         for the app to work — not optional like in the sibling apps. -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- NOTE: deliberately no CALL_PHONE permission. The Call button uses
+         ACTION_DIAL (opens the dialer with the number filled in).
+         No camera/storage permissions: shop photos are picked via
+         Photo Picker (PickVisualMedia), which needs no permission. -->
+
+    <application
+        android:name=".FixAdvisorApp"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.FixAdvisor"
+        android:supportsRtl="true">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.FixAdvisor">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+</manifest>
