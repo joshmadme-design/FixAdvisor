@@ -1,0 +1,8 @@
+# Local machine paths (SDK location etc.) — never commit
+local.properties
+# Gradle
+.gradle/
+build/
+# Android Studio / IntelliJ
+.idea/
+*.iml
