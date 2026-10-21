@@ -1,1 +1,113 @@
-cGFja2FnZSBjb20uc2hhaGFiLmZpeGFkdmlzb3IudWkudmlld21vZGVsCgppbXBvcnQgYW5kcm9pZC5jb250ZW50LkludGVudAppbXBvcnQgYW5kcm9pZHgubGlmZWN5Y2xlLlZpZXdNb2RlbAppbXBvcnQgYW5kcm9pZHgubGlmZWN5Y2xlLnZpZXdNb2RlbFNjb3BlCmltcG9ydCBjb20uc2hhaGFiLmZpeGFkdmlzb3IuRml4QWR2aXNvckFwcAppbXBvcnQgY29tLnNoYWhhYi5maXhhZHZpc29yLmRhdGEubW9kZWxzLlJldmlldwppbXBvcnQgY29tLnNoYWhhYi5maXhhZHZpc29yLmRhdGEubW9kZWxzLlNob3AKaW1wb3J0IGNvbS5zaGFoYWIuZml4YWR2aXNvci5kYXRhLm1vZGVscy5Vc2VyUHJvZmlsZQppbXBvcnQgY29tLnNoYWhhYi5maXhhZHZpc29yLmRhdGEucmVwby5BcHBVc2VyCmltcG9ydCBjb20uc2hhaGFiLmZpeGFkdmlzb3IuZGF0YS5yZXBvLlNob3BSZXBvc2l0b3J5CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuRXhwZXJpbWVudGFsQ29yb3V0aW5lc0FwaQppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuTXV0YWJsZVN0YXRlRmxvdwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuU2hhcmluZ1N0YXJ0ZWQKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93LlN0YXRlRmxvdwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuYXNTdGF0ZUZsb3cKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93LmZsYXRNYXBMYXRlc3QKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93LmZsb3dPZgppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cubWFwCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5zdGF0ZUluCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMubGF1bmNoCgovKioKICogUHJvZmlsZTogc2lnbi1pbiBzdGF0ZSwgbXkgcmV2aWV3cyAod2l0aCBkZWxldGUpLCBteSBmYXZvdXJpdGVzLCBteSBzaG9wLgogKi8KQE9wdEluKEV4cGVyaW1lbnRhbENvcm91dGluZXNBcGk6OmNsYXNzKQpjbGFzcyBQcm9maWxlVmlld01vZGVsKAogICAgcHJpdmF0ZSB2YWwgYXBwOiBGaXhBZHZpc29yQXBwCikgOiBWaWV3TW9kZWwoKSB7CgogICAgcHJpdmF0ZSB2YWwgYXV0aE1hbmFnZXIgPSBhcHAuY29udGFpbmVyLmF1dGhNYW5hZ2VyCiAgICBwcml2YXRlIHZhbCB1c2VyUmVwb3NpdG9yeSA9IGFwcC5jb250YWluZXIudXNlclJlcG9zaXRvcnkKICAgIHByaXZhdGUgdmFsIHJldmlld1JlcG9zaXRvcnkgPSBhcHAuY29udGFpbmVyLnJldmlld1JlcG9zaXRvcnkKICAgIHByaXZhdGUgdmFsIHNob3BSZXBvc2l0b3J5OiBTaG9wUmVwb3NpdG9yeSA9IGFwcC5jb250YWluZXIuc2hvcFJlcG9zaXRvcnkKCiAgICB2YWwgYXV0aFN0YXRlID0gYXV0aE1hbmFnZXIuYXV0aFN0YXRlCgogICAgLyoqCiAgICAgKiBBbHdheXMtcHJlc2VudCBpZGVudGl0eSBmb3IgVUk6IHRoZSBGaXJlYmFzZSB1c2VyIHdoZW4gc2lnbmVkIGluLAogICAgICogb3RoZXJ3aXNlIHRoZSBwZXItZGV2aWNlIGd1ZXN0LiBHdWVzdCBtb2RlIGhhcyBubyBzaWduLWluIHdhbGwuCiAgICAgKi8KICAgIHZhbCBhcHBVc2VyOiBTdGF0ZUZsb3c8QXBwVXNlcj4gPSBhdXRoU3RhdGUKICAgICAgICAubWFwIHsgZmIgLT4gZmI/LmxldCB7IEFwcFVzZXIoaXQudWlkLCBpdC5lbWFpbCwgaXQuZGlzcGxheU5hbWUpIH0gPzogYXV0aE1hbmFnZXIuYXBwVXNlciB9CiAgICAgICAgLnN0YXRlSW4odmlld01vZGVsU2NvcGUsIFNoYXJpbmdTdGFydGVkLldoaWxlU3Vic2NyaWJlZCg1XzAwMCksIGF1dGhNYW5hZ2VyLmFwcFVzZXIpCgogICAgcHJpdmF0ZSB2YWwgX21lc3NhZ2UgPSBNdXRhYmxlU3RhdGVGbG93PFN0cmluZz8+KG51bGwpCiAgICB2YWwgbWVzc2FnZTogU3RhdGVGbG93PFN0cmluZz8+ID0gX21lc3NhZ2UuYXNTdGF0ZUZsb3coKQoKICAgIHZhbCBwcm9maWxlOiBTdGF0ZUZsb3c8VXNlclByb2ZpbGU/PiA9IGFwcFVzZXIuZmxhdE1hcExhdGVzdCB7IHVzZXIgLT4KICAgICAgICB1c2VyUmVwb3NpdG9yeS5vYnNlcnZlUHJvZmlsZSh1c2VyLnVpZCkKICAgIH0uc3RhdGVJbih2aWV3TW9kZWxTY29wZSwgU2hhcmluZ1N0YXJ0ZWQuV2hpbGVTdWJzY3JpYmVkKDVfMDAwKSwgbnVsbCkKCiAgICB2YWwgbXlSZXZpZXdzOiBTdGF0ZUZsb3c8TGlzdDxSZXZpZXc+PiA9IGFwcFVzZXIuZmxhdE1hcExhdGVzdCB7IHVzZXIgLT4KICAgICAgICByZXZpZXdSZXBvc2l0b3J5Lm9ic2VydmVNeVJldmlld3ModXNlci51aWQpCiAgICB9LnN0YXRlSW4odmlld01vZGVsU2NvcGUsIFNoYXJpbmdTdGFydGVkLldoaWxlU3Vic2NyaWJlZCg1XzAwMCksIGVtcHR5TGlzdCgpKQoKICAgIC8qKiBTaG9wIGlkIC0+IHNob3AgbmFtZSwgc28gIk15IHJldmlld3MiIGNhbiBzYXkgd2hpY2ggc2hvcCBlYWNoIHJldmlldyBpcyBmb3IuICovCiAgICB2YWwgc2hvcE5hbWVzOiBTdGF0ZUZsb3c8TWFwPFN0cmluZywgU3RyaW5nPj4gPSBzaG9wUmVwb3NpdG9yeS5vYnNlcnZlU2hvcHMoKQogICAgICAgIC5tYXAgeyBsaXN0IC0+IGxpc3QuYXNzb2NpYXRlIHsgaXQuaWQgdG8gaXQubmFtZSB9IH0KICAgICAgICAuc3RhdGVJbih2aWV3TW9kZWxTY29wZSwgU2hhcmluZ1N0YXJ0ZWQuV2hpbGVTdWJzY3JpYmVkKDVfMDAwKSwgZW1wdHlNYXAoKSkKCiAgICB2YWwgb3duZWRTaG9wOiBTdGF0ZUZsb3c8U2hvcD8+ID0gcHJvZmlsZS5mbGF0TWFwTGF0ZXN0IHsgcCAtPgogICAgICAgIHZhbCBpZCA9IHA/Lm93bmVkU2hvcElkCiAgICAgICAgaWYgKGlkID09IG51bGwpIGZsb3dPZihudWxsKQogICAgICAgIGVsc2Ugc2hvcFJlcG9zaXRvcnkub2JzZXJ2ZVNob3BzKCkubWFwIHsgbGlzdCAtPiBsaXN0LmZpbmQgeyBpdC5pZCA9PSBpZCB9IH0KICAgIH0uc3RhdGVJbih2aWV3TW9kZWxTY29wZSwgU2hhcmluZ1N0YXJ0ZWQuV2hpbGVTdWJzY3JpYmVkKDVfMDAwKSwgbnVsbCkKCiAgICB2YWwgZmF2b3JpdGVTaG9wczogU3RhdGVGbG93PExpc3Q8U2hvcD4+ID0gcHJvZmlsZS5mbGF0TWFwTGF0ZXN0IHsgcCAtPgogICAgICAgIHZhbCBpZHMgPSBwPy5mYXZvcml0ZVNob3BJZHMub3JFbXB0eSgpCiAgICAgICAgaWYgKGlkcy5pc0VtcHR5KCkpIGZsb3dPZihlbXB0eUxpc3QoKSkKICAgICAgICBlbHNlIHNob3BSZXBvc2l0b3J5Lm9ic2VydmVTaG9wcygpLm1hcCB7IGxpc3QgLT4gbGlzdC5maWx0ZXIgeyBpdC5pZCBpbiBpZHMgfSB9CiAgICB9LnN0YXRlSW4odmlld01vZGVsU2NvcGUsIFNoYXJpbmdTdGFydGVkLldoaWxlU3Vic2NyaWJlZCg1XzAwMCksIGVtcHR5TGlzdCgpKQoKICAgIGZ1biBjbGVhck1lc3NhZ2UoKSB7IF9tZXNzYWdlLnZhbHVlID0gbnVsbCB9CgogICAgZnVuIGdldFNpZ25JbkludGVudCgpOiBJbnRlbnQgPSBhdXRoTWFuYWdlci5nZXRTaWduSW5JbnRlbnQoKQoKICAgIC8qKiBDb21wbGV0ZXMgR29vZ2xlIHNpZ24taW4gYW5kIGNyZWF0ZXMgdGhlIHVzZXIgcHJvZmlsZSBvbiBmaXJzdCBsb2dpbi4gKi8KICAgIGZ1biBoYW5kbGVTaWduSW5SZXN1bHQoZGF0YTogSW50ZW50PykgewogICAgICAgIHZpZXdNb2RlbFNjb3BlLmxhdW5jaCB7CiAgICAgICAgICAgIHZhbCByZXN1bHQgPSBhdXRoTWFuYWdlci5oYW5kbGVTaWduSW5SZXN1bHQoZGF0YSkKICAgICAgICAgICAgcmVzdWx0Lm9uU3VjY2VzcyB7IHVzZXIgLT4KICAgICAgICAgICAgICAgIHJ1bkNhdGNoaW5nIHsgdXNlclJlcG9zaXRvcnkuZW5zdXJlUHJvZmlsZSh1c2VyKSB9CiAgICAgICAgICAgICAgICAgICAgLm9uRmFpbHVyZSB7IF9tZXNzYWdlLnZhbHVlID0gIlNpZ25lZCBpbiwgYnV0IHByb2ZpbGUgc2V0dXAgZmFpbGVkLiIgfQogICAgICAgICAgICB9Lm9uRmFpbHVyZSB7CiAgICAgICAgICAgICAgICBfbWVzc2FnZS52YWx1ZSA9IGl0Lm1lc3NhZ2UgPzogIlNpZ24taW4gZmFpbGVkLiIKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICBmdW4gc2lnbk91dCgpIHsKICAgICAgICB2aWV3TW9kZWxTY29wZS5sYXVuY2ggewogICAgICAgICAgICBydW5DYXRjaGluZyB7IGF1dGhNYW5hZ2VyLnNpZ25PdXQoKSB9CiAgICAgICAgICAgICAgICAub25GYWlsdXJlIHsgX21lc3NhZ2UudmFsdWUgPSAiU2lnbi1vdXQgZmFpbGVkLiIgfQogICAgICAgIH0KICAgIH0KCiAgICBmdW4gZGVsZXRlUmV2aWV3KHJldmlldzogUmV2aWV3KSB7CiAgICAgICAgdmlld01vZGVsU2NvcGUubGF1bmNoIHsKICAgICAgICAgICAgcmV2aWV3UmVwb3NpdG9yeS5kZWxldGVSZXZpZXcocmV2aWV3KQogICAgICAgICAgICAgICAgLm9uU3VjY2VzcyB7IF9tZXNzYWdlLnZhbHVlID0gIlJldmlldyBkZWxldGVkLiIgfQogICAgICAgICAgICAgICAgLm9uRmFpbHVyZSB7IF9tZXNzYWdlLnZhbHVlID0gaXQubWVzc2FnZSA/OiAiQ291bGQgbm90IGRlbGV0ZSB0aGUgcmV2aWV3LiIgfQogICAgICAgIH0KICAgIH0KCiAgICBmdW4gcmVtb3ZlRmF2b3JpdGUoc2hvcElkOiBTdHJpbmcpIHsKICAgICAgICB2YWwgdWlkID0gYXV0aE1hbmFnZXIuY3VycmVudFVpZCA/OiByZXR1cm4KICAgICAgICB2aWV3TW9kZWxTY29wZS5sYXVuY2ggewogICAgICAgICAgICBydW5DYXRjaGluZyB7IHVzZXJSZXBvc2l0b3J5LnJlbW92ZUZhdm9yaXRlKHVpZCwgc2hvcElkKSB9CiAgICAgICAgICAgICAgICAub25GYWlsdXJlIHsgX21lc3NhZ2UudmFsdWUgPSAiQ291bGQgbm90IHJlbW92ZSBmYXZvdXJpdGUuIiB9CiAgICAgICAgfQogICAgfQp9Cg==
+package com.shahab.fixadvisor.ui.viewmodel
+
+import android.content.Intent
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.viewModelScope
+import com.shahab.fixadvisor.FixAdvisorApp
+import com.shahab.fixadvisor.data.models.Review
+import com.shahab.fixadvisor.data.models.Shop
+import com.shahab.fixadvisor.data.models.UserProfile
+import com.shahab.fixadvisor.data.repo.AppUser
+import com.shahab.fixadvisor.data.repo.ShopRepository
+import kotlinx.coroutines.ExperimentalCoroutinesApi
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.SharingStarted
+import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.flow.flatMapLatest
+import kotlinx.coroutines.flow.flowOf
+import kotlinx.coroutines.flow.map
+import kotlinx.coroutines.flow.stateIn
+import kotlinx.coroutines.launch
+
+/**
+ * Profile: sign-in state, my reviews (with delete), my favourites, my shop.
+ */
+@OptIn(ExperimentalCoroutinesApi::class)
+class ProfileViewModel(
+    private val app: FixAdvisorApp
+) : ViewModel() {
+
+    private val authManager = app.container.authManager
+    private val userRepository = app.container.userRepository
+    private val reviewRepository = app.container.reviewRepository
+    private val shopRepository: ShopRepository = app.container.shopRepository
+
+    val authState = authManager.authState
+
+    /**
+     * Always-present identity for UI: the Firebase user when signed in,
+     * otherwise the per-device guest. Guest mode has no sign-in wall.
+     */
+    val appUser: StateFlow<AppUser> = authState
+        .map { fb -> fb?.let { AppUser(it.uid, it.email, it.displayName) } ?: authManager.appUser }
+        .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), authManager.appUser)
+
+    private val _message = MutableStateFlow<String?>(null)
+    val message: StateFlow<String?> = _message.asStateFlow()
+
+    val profile: StateFlow<UserProfile?> = appUser.flatMapLatest { user ->
+        userRepository.observeProfile(user.uid)
+    }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), null)
+
+    val myReviews: StateFlow<List<Review>> = appUser.flatMapLatest { user ->
+        reviewRepository.observeMyReviews(user.uid)
+    }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), emptyList())
+
+    /** Shop id -> shop name, so "My reviews" can say which shop each review is for. */
+    val shopNames: StateFlow<Map<String, String>> = shopRepository.observeShops()
+        .map { list -> list.associate { it.id to it.name } }
+        .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), emptyMap())
+
+    val ownedShop: StateFlow<Shop?> = profile.flatMapLatest { p ->
+        val id = p?.ownedShopId
+        if (id == null) flowOf(null)
+        else shopRepository.observeShops().map { list -> list.find { it.id == id } }
+    }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), null)
+
+    val favoriteShops: StateFlow<List<Shop>> = profile.flatMapLatest { p ->
+        val ids = p?.favoriteShopIds.orEmpty()
+        if (ids.isEmpty()) flowOf(emptyList())
+        else shopRepository.observeShops().map { list -> list.filter { it.id in ids } }
+    }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), emptyList())
+
+    fun clearMessage() { _message.value = null }
+
+    fun getSignInIntent(): Intent = authManager.getSignInIntent()
+
+    /** Completes Google sign-in and creates the user profile on first login. */
+    fun handleSignInResult(data: Intent?) {
+        viewModelScope.launch {
+            val result = authManager.handleSignInResult(data)
+            result.onSuccess { user ->
+                runCatching { userRepository.ensureProfile(user) }
+                    .onFailure { _message.value = "Signed in, but profile setup failed." }
+            }.onFailure {
+                _message.value = it.message ?: "Sign-in failed."
+            }
+        }
+    }
+
+    fun signOut() {
+        viewModelScope.launch {
+            runCatching { authManager.signOut() }
+                .onFailure { _message.value = "Sign-out failed." }
+        }
+    }
+
+    fun deleteReview(review: Review) {
+        viewModelScope.launch {
+            reviewRepository.deleteReview(review)
+                .onSuccess { _message.value = "Review deleted." }
+                .onFailure { _message.value = it.message ?: "Could not delete the review." }
+        }
+    }
+
+    fun removeFavorite(shopId: String) {
+        val uid = authManager.currentUid ?: return
+        viewModelScope.launch {
+            runCatching { userRepository.removeFavorite(uid, shopId) }
+                .onFailure { _message.value = "Could not remove favourite." }
+        }
+    }
+}
