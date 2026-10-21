@@ -57,11 +57,7 @@ class ShopDetailViewModel(
     fun clearMessage() { _message.value = null }
 
     fun toggleFavorite() {
-        val uid = authManager.currentUid
-        if (uid == null) {
-            _message.value = "Sign in to save favourite shops."
-            return
-        }
+        val uid = authManager.appUser.uid
         viewModelScope.launch {
             runCatching {
                 if (isFavorite.value) userRepository.removeFavorite(uid, shopId)
