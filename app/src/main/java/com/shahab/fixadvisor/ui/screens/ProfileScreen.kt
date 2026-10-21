@@ -58,6 +58,7 @@ fun ProfileScreen(
     onOpenQr: (String) -> Unit
 ) {
     val vm: ProfileViewModel = viewModel(factory = VmFactory(app))
+    val appUser by vm.appUser.collectAsState()
     val profile by vm.profile.collectAsState()
     val myReviews by vm.myReviews.collectAsState()
     val ownedShop by vm.ownedShop.collectAsState()
@@ -98,13 +99,13 @@ fun ProfileScreen(
             item {
                 Spacer(Modifier.height(8.dp))
                 Text(
-                    text = profile?.displayName?.ifBlank { user?.displayName.orEmpty() }
-                        ?: user?.displayName.orEmpty(),
+                    text = profile?.displayName?.ifBlank { appUser.displayName.orEmpty() }
+                        ?: appUser.displayName.orEmpty(),
                     style = MaterialTheme.typography.titleLarge,
                     fontWeight = FontWeight.Bold
                 )
                 Text(
-                    text = profile?.email ?: user?.email.orEmpty(),
+                    text = profile?.email ?: appUser.email.orEmpty(),
                     style = MaterialTheme.typography.bodyMedium,
                     color = MaterialTheme.colorScheme.onSurfaceVariant
                 )
