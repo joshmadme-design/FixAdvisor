@@ -1,1 +1,276 @@
-cGFja2FnZSBjb20uc2hhaGFiLmZpeGFkdmlzb3IudWkuc2NyZWVucwoKaW1wb3J0IGFuZHJvaWR4LmFjdGl2aXR5LmNvbXBvc2UucmVtZW1iZXJMYXVuY2hlckZvckFjdGl2aXR5UmVzdWx0CmltcG9ydCBhbmRyb2lkeC5hY3Rpdml0eS5yZXN1bHQuUGlja1Zpc3VhbE1lZGlhUmVxdWVzdAppbXBvcnQgYW5kcm9pZHguYWN0aXZpdHkucmVzdWx0LmNvbnRyYWN0LkFjdGl2aXR5UmVzdWx0Q29udHJhY3RzCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LkFycmFuZ2VtZW50CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LkJveAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5Db2x1bW4KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuRXhwZXJpbWVudGFsTGF5b3V0QXBpCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LkZsb3dSb3cKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuUm93CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LlNwYWNlcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5maWxsTWF4U2l6ZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5maWxsTWF4V2lkdGgKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuaGVpZ2h0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LnBhZGRpbmcKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuc2l6ZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxhenkuTGF6eVJvdwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxhenkuaXRlbXMKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5yZW1lbWJlclNjcm9sbFN0YXRlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24uc2hhcGUuUm91bmRlZENvcm5lclNoYXBlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24udGV4dC5LZXlib2FyZE9wdGlvbnMKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi52ZXJ0aWNhbFNjcm9sbAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbC5pY29ucy5JY29ucwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbC5pY29ucy5maWxsZWQuQWRkQVBob3RvCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsLmljb25zLmZpbGxlZC5DbG9zZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuQnV0dG9uCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5DYXJkCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5DaXJjdWxhclByb2dyZXNzSW5kaWNhdG9yCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5FeHBlcmltZW50YWxNYXRlcmlhbDNBcGkKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLkZpbHRlckNoaXAKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLkljb24KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLkljb25CdXR0b24KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLk1hdGVyaWFsVGhlbWUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLk91dGxpbmVkVGV4dEZpZWxkCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5TY2FmZm9sZAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuU25hY2tiYXJIb3N0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5TbmFja2Jhckhvc3RTdGF0ZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuVGV4dAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuVG9wQXBwQmFyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuQ29tcG9zYWJsZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLkxhdW5jaGVkRWZmZWN0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuY29sbGVjdEFzU3RhdGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5nZXRWYWx1ZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLm11dGFibGVTdGF0ZU9mCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUucmVtZW1iZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5zZXRWYWx1ZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5BbGlnbm1lbnQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuTW9kaWZpZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuZHJhdy5jbGlwCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmxheW91dC5Db250ZW50U2NhbGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudGV4dC5pbnB1dC5LZXlib2FyZFR5cGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudW5pdC5kcAppbXBvcnQgYW5kcm9pZHgubGlmZWN5Y2xlLnZpZXdtb2RlbC5jb21wb3NlLnZpZXdNb2RlbAppbXBvcnQgY29pbC5jb21wb3NlLkFzeW5jSW1hZ2UKaW1wb3J0IGNvbS5zaGFoYWIuZml4YWR2aXNvci5GaXhBZHZpc29yQXBwCmltcG9ydCBjb20uc2hhaGFiLmZpeGFkdmlzb3IuZGF0YS5tb2RlbHMuUmVwYWlyVHlwZXMKaW1wb3J0IGNvbS5zaGFoYWIuZml4YWR2aXNvci51aS5jb21wb25lbnRzLkZpeEFkdmlzb3JCb3R0b21CYXIKaW1wb3J0IGNvbS5zaGFoYWIuZml4YWR2aXNvci51aS5jb21wb25lbnRzLlNlY3Rpb25UaXRsZQppbXBvcnQgY29tLnNoYWhhYi5maXhhZHZpc29yLnVpLm5hdmlnYXRpb24uUm91dGVzCmltcG9ydCBjb20uc2hhaGFiLmZpeGFkdmlzb3IudWkudmlld21vZGVsLlJlZ2lzdGVyU2hvcFZpZXdNb2RlbAppbXBvcnQgY29tLnNoYWhhYi5maXhhZHZpc29yLnVpLnZpZXdtb2RlbC5WbUZhY3RvcnkKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5sYXVuY2gKCi8qKgogKiBTaG9wIHJlZ2lzdHJhdGlvbjogbmFtZSwgYWRkcmVzcywgY29udGFjdHMsIHNlcnZpY2VzICsgcHJpY2VzLCBvcGVuaW5nCiAqIGhvdXJzLCBwaG90b3MuIFBoYXNlIDE6IG9uZSBzaG9wIHBlciB1c2VyLCBmcmVlIHRvIGpvaW4uCiAqLwpAT3B0SW4oRXhwZXJpbWVudGFsTWF0ZXJpYWwzQXBpOjpjbGFzcywgRXhwZXJpbWVudGFsTGF5b3V0QXBpOjpjbGFzcykKQENvbXBvc2FibGUKZnVuIFJlZ2lzdGVyU2hvcFNjcmVlbigKICAgIGFwcDogRml4QWR2aXNvckFwcCwKICAgIG9uUmVnaXN0ZXJlZDogKFN0cmluZykgLT4gVW5pdCwKICAgIG9uSG9tZTogKCkgLT4gVW5pdCwKICAgIG9uT3BlblByb2ZpbGU6ICgpIC0+IFVuaXQKKSB7CiAgICB2YWwgdm06IFJlZ2lzdGVyU2hvcFZpZXdNb2RlbCA9IHZpZXdNb2RlbChmYWN0b3J5ID0gVm1GYWN0b3J5KGFwcCkpCiAgICB2YWwgc25hY2tiYXJIb3N0U3RhdGUgPSByZW1lbWJlciB7IFNuYWNrYmFySG9zdFN0YXRlKCkgfQoKICAgIHZhbCBtZXNzYWdlIGJ5IHZtLm1lc3NhZ2UuY29sbGVjdEFzU3RhdGUoKQogICAgdmFsIHN1Ym1pdHRpbmcgYnkgdm0uc3VibWl0dGluZy5jb2xsZWN0QXNTdGF0ZSgpCiAgICB2YWwgcmVnaXN0ZXJlZFNob3BJZCBieSB2bS5yZWdpc3RlcmVkU2hvcElkLmNvbGxlY3RBc1N0YXRlKCkKCiAgICB2YWwgbmFtZSBieSB2bS5uYW1lU3RhdGUuY29sbGVjdEFzU3RhdGUoKQogICAgdmFsIGFkZHJlc3MgYnkgdm0uYWRkcmVzc1N0YXRlLmNvbGxlY3RBc1N0YXRlKCkKICAgIHZhbCBwaG9uZSBieSB2bS5waG9uZVN0YXRlLmNvbGxlY3RBc1N0YXRlKCkKICAgIHZhbCB3aGF0c2FwcCBieSB2bS53aGF0c2FwcFN0YXRlLmNvbGxlY3RBc1N0YXRlKCkKICAgIHZhbCB3ZWJzaXRlVXJsIGJ5IHZtLndlYnNpdGVVcmxTdGF0ZS5jb2xsZWN0QXNTdGF0ZSgpCiAgICB2YWwgZ29vZ2xlTWFwc1VybCBieSB2bS5nb29nbGVNYXBzVXJsU3RhdGUuY29sbGVjdEFzU3RhdGUoKQogICAgdmFsIG9wZW5pbmdIb3VycyBieSB2bS5vcGVuaW5nSG91cnNTdGF0ZS5jb2xsZWN0QXNTdGF0ZSgpCiAgICB2YWwgc2VydmljZXMgYnkgdm0uc2VydmljZXMuY29sbGVjdEFzU3RhdGUoKQogICAgdmFsIHByaWNlcyBieSB2bS5wcmljZXMuY29sbGVjdEFzU3RhdGUoKQogICAgdmFsIHBob3RvVXJpcyBieSB2bS5waG90b1VyaXMuY29sbGVjdEFzU3RhdGUoKQoKICAgIExhdW5jaGVkRWZmZWN0KG1lc3NhZ2UpIHsKICAgICAgICBtZXNzYWdlPy5sZXQgewogICAgICAgICAgICBzbmFja2Jhckhvc3RTdGF0ZS5zaG93U25hY2tiYXIoaXQpCiAgICAgICAgICAgIHZtLmNsZWFyTWVzc2FnZSgpCiAgICAgICAgfQogICAgfQogICAgTGF1bmNoZWRFZmZlY3QocmVnaXN0ZXJlZFNob3BJZCkgewogICAgICAgIHJlZ2lzdGVyZWRTaG9wSWQ/LmxldCB7IG9uUmVnaXN0ZXJlZChpdCkgfQogICAgfQoKICAgIHZhbCBwaG90b1BpY2tlciA9IHJlbWVtYmVyTGF1bmNoZXJGb3JBY3Rpdml0eVJlc3VsdCgKICAgICAgICBBY3Rpdml0eVJlc3VsdENvbnRyYWN0cy5QaWNrTXVsdGlwbGVWaXN1YWxNZWRpYShSZWdpc3RlclNob3BWaWV3TW9kZWwuTUFYX1BIT1RPUykKICAgICkgeyB1cmlzIC0+IGlmICh1cmlzLmlzTm90RW1wdHkoKSkgdm0uYWRkUGhvdG9zKHVyaXMpIH0KCiAgICBTY2FmZm9sZCgKICAgICAgICB0b3BCYXIgPSB7IFRvcEFwcEJhcih0aXRsZSA9IHsgVGV4dCgiUmVnaXN0ZXIgeW91ciBzaG9wIikgfSkgfSwKICAgICAgICBib3R0b21CYXIgPSB7CiAgICAgICAgICAgIEZpeEFkdmlzb3JCb3R0b21CYXIoCiAgICAgICAgICAgICAgICBjdXJyZW50Um91dGUgPSBSb3V0ZXMuUkVHSVNURVJfU0hPUCwKICAgICAgICAgICAgICAgIG9uSG9tZSA9IG9uSG9tZSwKICAgICAgICAgICAgICAgIG9uUmVnaXN0ZXJTaG9wID0ge30sCiAgICAgICAgICAgICAgICBvblByb2ZpbGUgPSBvbk9wZW5Qcm9maWxlCiAgICAgICAgICAgICkKICAgICAgICB9LAogICAgICAgIHNuYWNrYmFySG9zdCA9IHsgU25hY2tiYXJIb3N0KHNuYWNrYmFySG9zdFN0YXRlKSB9CiAgICApIHsgcGFkZGluZyAtPgogICAgICAgIC8vIEd1ZXN0IG1vZGU6IG5vIHNpZ24taW4gd2FsbCDigJQgdGhlIGZvcm0gaXMgYWx3YXlzIGF2YWlsYWJsZS4KCiAgICAgICAgQ29sdW1uKAogICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyCiAgICAgICAgICAgICAgICAuZmlsbE1heFNpemUoKQogICAgICAgICAgICAgICAgLnBhZGRpbmcocGFkZGluZykKICAgICAgICAgICAgICAgIC52ZXJ0aWNhbFNjcm9sbChyZW1lbWJlclNjcm9sbFN0YXRlKCkpCiAgICAgICAgICAgICAgICAucGFkZGluZygxNi5kcCkKICAgICAgICApIHsKICAgICAgICAgICAgVGV4dCgKICAgICAgICAgICAgICAgIHRleHQgPSAiSXQncyBmcmVlIHRvIGpvaW4uIEN1c3RvbWVycyB3aWxsIGZpbmQgeW91IGJ5IG5hbWUsIGFyZWEgYW5kIHJlcGFpciB0eXBlLiIsCiAgICAgICAgICAgICAgICBzdHlsZSA9IE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS5ib2R5TWVkaXVtLAogICAgICAgICAgICAgICAgY29sb3IgPSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLm9uU3VyZmFjZVZhcmlhbnQKICAgICAgICAgICAgKQogICAgICAgICAgICBTcGFjZXIoTW9kaWZpZXIuaGVpZ2h0KDEyLmRwKSkKCiAgICAgICAgICAgIE91dGxpbmVkVGV4dEZpZWxkKAogICAgICAgICAgICAgICAgdmFsdWUgPSBuYW1lLCBvblZhbHVlQ2hhbmdlID0gdm06OnNldE5hbWUsCiAgICAgICAgICAgICAgICBsYWJlbCA9IHsgVGV4dCgiU2hvcCBuYW1lICoiKSB9LCBzaW5nbGVMaW5lID0gdHJ1ZSwKICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIuZmlsbE1heFdpZHRoKCkKICAgICAgICAgICAgKQogICAgICAgICAgICBTcGFjZXIoTW9kaWZpZXIuaGVpZ2h0KDguZHApKQogICAgICAgICAgICBPdXRsaW5lZFRleHRGaWVsZCgKICAgICAgICAgICAgICAgIHZhbHVlID0gYWRkcmVzcywgb25WYWx1ZUNoYW5nZSA9IHZtOjpzZXRBZGRyZXNzLAogICAgICAgICAgICAgICAgbGFiZWwgPSB7IFRleHQoIkFkZHJlc3MgKiIpIH0sIG1pbkxpbmVzID0gMiwKICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIuZmlsbE1heFdpZHRoKCkKICAgICAgICAgICAgKQogICAgICAgICAgICBTcGFjZXIoTW9kaWZpZXIuaGVpZ2h0KDguZHApKQogICAgICAgICAgICBSb3coaG9yaXpvbnRhbEFycmFuZ2VtZW50ID0gQXJyYW5nZW1lbnQuc3BhY2VkQnkoOC5kcCkpIHsKICAgICAgICAgICAgICAgIE91dGxpbmVkVGV4dEZpZWxkKAogICAgICAgICAgICAgICAgICAgIHZhbHVlID0gcGhvbmUsIG9uVmFsdWVDaGFuZ2UgPSB2bTo6c2V0UGhvbmUsCiAgICAgICAgICAgICAgICAgICAgbGFiZWwgPSB7IFRleHQoIlBob25lIikgfSwgc2luZ2xlTGluZSA9IHRydWUsCiAgICAgICAgICAgICAgICAgICAga2V5Ym9hcmRPcHRpb25zID0gS2V5Ym9hcmRPcHRpb25zKGtleWJvYXJkVHlwZSA9IEtleWJvYXJkVHlwZS5QaG9uZSksCiAgICAgICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci53ZWlnaHQoMWYpCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICBPdXRsaW5lZFRleHRGaWVsZCgKICAgICAgICAgICAgICAgICAgICB2YWx1ZSA9IHdoYXRzYXBwLCBvblZhbHVlQ2hhbmdlID0gdm06OnNldFdoYXRzYXBwLAogICAgICAgICAgICAgICAgICAgIGxhYmVsID0geyBUZXh0KCJXaGF0c0FwcCBudW1iZXIiKSB9LCBzaW5nbGVMaW5lID0gdHJ1ZSwKICAgICAgICAgICAgICAgICAgICBwbGFjZWhvbGRlciA9IHsgVGV4dCgiNjAxMjM0NTY3ODkiKSB9LAogICAgICAgICAgICAgICAgICAgIGtleWJvYXJkT3B0aW9ucyA9IEtleWJvYXJkT3B0aW9ucyhrZXlib2FyZFR5cGUgPSBLZXlib2FyZFR5cGUuUGhvbmUpLAogICAgICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIud2VpZ2h0KDFmKQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICB9CiAgICAgICAgICAgIFNwYWNlcihNb2RpZmllci5oZWlnaHQoOC5kcCkpCiAgICAgICAgICAgIE91dGxpbmVkVGV4dEZpZWxkKAogICAgICAgICAgICAgICAgdmFsdWUgPSB3ZWJzaXRlVXJsLCBvblZhbHVlQ2hhbmdlID0gdm06OnNldFdlYnNpdGVVcmwsCiAgICAgICAgICAgICAgICBsYWJlbCA9IHsgVGV4dCgiV2Vic2l0ZSBsaW5rIikgfSwgc2luZ2xlTGluZSA9IHRydWUsCiAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLmZpbGxNYXhXaWR0aCgpCiAgICAgICAgICAgICkKICAgICAgICAgICAgU3BhY2VyKE1vZGlmaWVyLmhlaWdodCg4LmRwKSkKICAgICAgICAgICAgT3V0bGluZWRUZXh0RmllbGQoCiAgICAgICAgICAgICAgICB2YWx1ZSA9IGdvb2dsZU1hcHNVcmwsIG9uVmFsdWVDaGFuZ2UgPSB2bTo6c2V0R29vZ2xlTWFwc1VybCwKICAgICAgICAgICAgICAgIGxhYmVsID0geyBUZXh0KCJHb29nbGUgTWFwcyBsaW5rIikgfSwgc2luZ2xlTGluZSA9IHRydWUsCiAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLmZpbGxNYXhXaWR0aCgpCiAgICAgICAgICAgICkKICAgICAgICAgICAgU3BhY2VyKE1vZGlmaWVyLmhlaWdodCg4LmRwKSkKICAgICAgICAgICAgT3V0bGluZWRUZXh0RmllbGQoCiAgICAgICAgICAgICAgICB2YWx1ZSA9IG9wZW5pbmdIb3Vycywgb25WYWx1ZUNoYW5nZSA9IHZtOjpzZXRPcGVuaW5nSG91cnMsCiAgICAgICAgICAgICAgICBsYWJlbCA9IHsgVGV4dCgiT3BlbmluZyBob3VycyAoZS5nLiBNb27igJNTYXQgMTBhbeKAkzlwbSkiKSB9LAogICAgICAgICAgICAgICAgc2luZ2xlTGluZSA9IHRydWUsCiAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLmZpbGxNYXhXaWR0aCgpCiAgICAgICAgICAgICkKCiAgICAgICAgICAgIFNlY3Rpb25UaXRsZSgiUmVwYWlyIHNlcnZpY2VzICoiKQogICAgICAgICAgICBGbG93Um93KGhvcml6b250YWxBcnJhbmdlbWVudCA9IEFycmFuZ2VtZW50LnNwYWNlZEJ5KDguZHApKSB7CiAgICAgICAgICAgICAgICBSZXBhaXJUeXBlcy5BTEwuZm9yRWFjaCB7IHR5cGUgLT4KICAgICAgICAgICAgICAgICAgICBGaWx0ZXJDaGlwKAogICAgICAgICAgICAgICAgICAgICAgICBzZWxlY3RlZCA9IHR5cGUgaW4gc2VydmljZXMsCiAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2xpY2sgPSB7IHZtLnRvZ2dsZVNlcnZpY2UodHlwZSkgfSwKICAgICAgICAgICAgICAgICAgICAgICAgbGFiZWwgPSB7IFRleHQodHlwZSkgfQogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQoKICAgICAgICAgICAgaWYgKHNlcnZpY2VzLmlzTm90RW1wdHkoKSkgewogICAgICAgICAgICAgICAgU2VjdGlvblRpdGxlKCJQcmljZXMgKFJNLCBvcHRpb25hbCkiKQogICAgICAgICAgICAgICAgc2VydmljZXMuc29ydGVkKCkuZm9yRWFjaCB7IHNlcnZpY2UgLT4KICAgICAgICAgICAgICAgICAgICBPdXRsaW5lZFRleHRGaWVsZCgKICAgICAgICAgICAgICAgICAgICAgICAgdmFsdWUgPSBwcmljZXNbc2VydmljZV0ub3JFbXB0eSgpLAogICAgICAgICAgICAgICAgICAgICAgICBvblZhbHVlQ2hhbmdlID0geyB2bS5zZXRQcmljZShzZXJ2aWNlLCBpdCkgfSwKICAgICAgICAgICAgICAgICAgICAgICAgbGFiZWwgPSB7IFRleHQoc2VydmljZSkgfSwKICAgICAgICAgICAgICAgICAgICAgICAgc2luZ2xlTGluZSA9IHRydWUsCiAgICAgICAgICAgICAgICAgICAgICAgIGtleWJvYXJkT3B0aW9ucyA9IEtleWJvYXJkT3B0aW9ucyhrZXlib2FyZFR5cGUgPSBLZXlib2FyZFR5cGUuTnVtYmVyKSwKICAgICAgICAgICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllcgogICAgICAgICAgICAgICAgICAgICAgICAgICAgLmZpbGxNYXhXaWR0aCgpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAucGFkZGluZyhib3R0b20gPSA4LmRwKQogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQoKICAgICAgICAgICAgU2VjdGlvblRpdGxlKCJTaG9wIHBob3RvcyAoJHtwaG90b1VyaXMuc2l6ZX0vJHtSZWdpc3RlclNob3BWaWV3TW9kZWwuTUFYX1BIT1RPU30pIikKICAgICAgICAgICAgTGF6eVJvdyhob3Jpem9udGFsQXJyYW5nZW1lbnQgPSBBcnJhbmdlbWVudC5zcGFjZWRCeSgxMC5kcCkpIHsKICAgICAgICAgICAgICAgIGl0ZW0gewogICAgICAgICAgICAgICAgICAgIENhcmQoCiAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2xpY2sgPSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBwaG90b1BpY2tlci5sYXVuY2goCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgUGlja1Zpc3VhbE1lZGlhUmVxdWVzdChBY3Rpdml0eVJlc3VsdENvbnRyYWN0cy5QaWNrVmlzdWFsTWVkaWEuSW1hZ2VPbmx5KQogICAgICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIENvbHVtbigKICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIucGFkZGluZygyNC5kcCksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBob3Jpem9udGFsQWxpZ25tZW50ID0gQWxpZ25tZW50LkNlbnRlckhvcml6b250YWxseQogICAgICAgICAgICAgICAgICAgICAgICApIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIEljb24oSWNvbnMuRmlsbGVkLkFkZEFQaG90bywgY29udGVudERlc2NyaXB0aW9uID0gIkFkZCBwaG90b3MiKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgU3BhY2VyKE1vZGlmaWVyLmhlaWdodCg0LmRwKSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIFRleHQoIkFkZCIsIHN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LmJvZHlTbWFsbCkKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGl0ZW1zKHBob3RvVXJpcykgeyB1cmkgLT4KICAgICAgICAgICAgICAgICAgICBCb3ggewogICAgICAgICAgICAgICAgICAgICAgICBBc3luY0ltYWdlKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgbW9kZWwgPSB1cmksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb250ZW50RGVzY3JpcHRpb24gPSAiU2hvcCBwaG90byIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb250ZW50U2NhbGUgPSBDb250ZW50U2NhbGUuQ3JvcCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAuc2l6ZSgxMTAuZHApCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLmNsaXAoUm91bmRlZENvcm5lclNoYXBlKDEwLmRwKSkKICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgICAgICBJY29uQnV0dG9uKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgb25DbGljayA9IHsgdm0ucmVtb3ZlUGhvdG8odXJpKSB9LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5hbGlnbihBbGlnbm1lbnQuVG9wRW5kKQogICAgICAgICAgICAgICAgICAgICAgICApIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIEljb24oSWNvbnMuRmlsbGVkLkNsb3NlLCBjb250ZW50RGVzY3JpcHRpb24gPSAiUmVtb3ZlIHBob3RvIikKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQoKICAgICAgICAgICAgU3BhY2VyKE1vZGlmaWVyLmhlaWdodCgyMC5kcCkpCiAgICAgICAgICAgIEJ1dHRvbigKICAgICAgICAgICAgICAgIG9uQ2xpY2sgPSB2bTo6c3VibWl0LAogICAgICAgICAgICAgICAgZW5hYmxlZCA9ICFzdWJtaXR0aW5nLAogICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5maWxsTWF4V2lkdGgoKQogICAgICAgICAgICApIHsKICAgICAgICAgICAgICAgIGlmIChzdWJtaXR0aW5nKSB7CiAgICAgICAgICAgICAgICAgICAgQ2lyY3VsYXJQcm9ncmVzc0luZGljYXRvcigKICAgICAgICAgICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5wYWRkaW5nKGVuZCA9IDguZHApLAogICAgICAgICAgICAgICAgICAgICAgICBzdHJva2VXaWR0aCA9IDIuZHAKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBUZXh0KCJSZWdpc3RlciBzaG9wIikKICAgICAgICAgICAgfQogICAgICAgICAgICBUZXh0KAogICAgICAgICAgICAgICAgdGV4dCA9ICJPbmUgc2hvcCBwZXIgYWNjb3VudCBpbiB0aGlzIHZlcnNpb24uIiwKICAgICAgICAgICAgICAgIHN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LmJvZHlTbWFsbCwKICAgICAgICAgICAgICAgIGNvbG9yID0gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5vblN1cmZhY2VWYXJpYW50LAogICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllcgogICAgICAgICAgICAgICAgICAgIC5wYWRkaW5nKHRvcCA9IDguZHApCiAgICAgICAgICAgICAgICAgICAgLmFsaWduKEFsaWdubWVudC5DZW50ZXJIb3Jpem9udGFsbHkpCiAgICAgICAgICAgICkKICAgICAgICAgICAgU3BhY2VyKE1vZGlmaWVyLmhlaWdodCgyNC5kcCkpCiAgICAgICAgfQogICAgfQp9Cg==
+package com.shahab.fixadvisor.ui.screens
+
+import androidx.activity.compose.rememberLauncherForActivityResult
+import androidx.activity.result.PickVisualMediaRequest
+import androidx.activity.result.contract.ActivityResultContracts
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.ExperimentalLayoutApi
+import androidx.compose.foundation.layout.FlowRow
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.lazy.LazyRow
+import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.foundation.text.KeyboardOptions
+import androidx.compose.foundation.verticalScroll
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.AddAPhoto
+import androidx.compose.material.icons.filled.Close
+import androidx.compose.material3.Button
+import androidx.compose.material3.Card
+import androidx.compose.material3.CircularProgressIndicator
+import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.FilterChip
+import androidx.compose.material3.Icon
+import androidx.compose.material3.IconButton
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.OutlinedTextField
+import androidx.compose.material3.Scaffold
+import androidx.compose.material3.SnackbarHost
+import androidx.compose.material3.SnackbarHostState
+import androidx.compose.material3.Text
+import androidx.compose.material3.TopAppBar
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.collectAsState
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.text.input.KeyboardType
+import androidx.compose.ui.unit.dp
+import androidx.lifecycle.viewmodel.compose.viewModel
+import coil.compose.AsyncImage
+import com.shahab.fixadvisor.FixAdvisorApp
+import com.shahab.fixadvisor.data.models.RepairTypes
+import com.shahab.fixadvisor.ui.components.FixAdvisorBottomBar
+import com.shahab.fixadvisor.ui.components.SectionTitle
+import com.shahab.fixadvisor.ui.navigation.Routes
+import com.shahab.fixadvisor.ui.viewmodel.RegisterShopViewModel
+import com.shahab.fixadvisor.ui.viewmodel.VmFactory
+import kotlinx.coroutines.launch
+
+/**
+ * Shop registration: name, address, contacts, services + prices, opening
+ * hours, photos. Phase 1: one shop per user, free to join.
+ */
+@OptIn(ExperimentalMaterial3Api::class, ExperimentalLayoutApi::class)
+@Composable
+fun RegisterShopScreen(
+    app: FixAdvisorApp,
+    onRegistered: (String) -> Unit,
+    onHome: () -> Unit,
+    onOpenProfile: () -> Unit
+) {
+    val vm: RegisterShopViewModel = viewModel(factory = VmFactory(app))
+    val snackbarHostState = remember { SnackbarHostState() }
+
+    val message by vm.message.collectAsState()
+    val submitting by vm.submitting.collectAsState()
+    val registeredShopId by vm.registeredShopId.collectAsState()
+
+    val name by vm.nameState.collectAsState()
+    val address by vm.addressState.collectAsState()
+    val phone by vm.phoneState.collectAsState()
+    val whatsapp by vm.whatsappState.collectAsState()
+    val websiteUrl by vm.websiteUrlState.collectAsState()
+    val googleMapsUrl by vm.googleMapsUrlState.collectAsState()
+    val openingHours by vm.openingHoursState.collectAsState()
+    val services by vm.services.collectAsState()
+    val prices by vm.prices.collectAsState()
+    val photoUris by vm.photoUris.collectAsState()
+
+    LaunchedEffect(message) {
+        message?.let {
+            snackbarHostState.showSnackbar(it)
+            vm.clearMessage()
+        }
+    }
+    LaunchedEffect(registeredShopId) {
+        registeredShopId?.let { onRegistered(it) }
+    }
+
+    val photoPicker = rememberLauncherForActivityResult(
+        ActivityResultContracts.PickMultipleVisualMedia(RegisterShopViewModel.MAX_PHOTOS)
+    ) { uris -> if (uris.isNotEmpty()) vm.addPhotos(uris) }
+
+    Scaffold(
+        topBar = { TopAppBar(title = { Text("Register your shop") }) },
+        bottomBar = {
+            FixAdvisorBottomBar(
+                currentRoute = Routes.REGISTER_SHOP,
+                onHome = onHome,
+                onRegisterShop = {},
+                onProfile = onOpenProfile
+            )
+        },
+        snackbarHost = { SnackbarHost(snackbarHostState) }
+    ) { padding ->
+        // Guest mode: no sign-in wall — the form is always available.
+
+        Column(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(padding)
+                .verticalScroll(rememberScrollState())
+                .padding(16.dp)
+        ) {
+            Text(
+                text = "It's free to join. Customers will find you by name, area and repair type.",
+                style = MaterialTheme.typography.bodyMedium,
+                color = MaterialTheme.colorScheme.onSurfaceVariant
+            )
+            Spacer(Modifier.height(12.dp))
+
+            OutlinedTextField(
+                value = name, onValueChange = vm::setName,
+                label = { Text("Shop name *") }, singleLine = true,
+                modifier = Modifier.fillMaxWidth()
+            )
+            Spacer(Modifier.height(8.dp))
+            OutlinedTextField(
+                value = address, onValueChange = vm::setAddress,
+                label = { Text("Address *") }, minLines = 2,
+                modifier = Modifier.fillMaxWidth()
+            )
+            Spacer(Modifier.height(8.dp))
+            Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                OutlinedTextField(
+                    value = phone, onValueChange = vm::setPhone,
+                    label = { Text("Phone") }, singleLine = true,
+                    keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Phone),
+                    modifier = Modifier.weight(1f)
+                )
+                OutlinedTextField(
+                    value = whatsapp, onValueChange = vm::setWhatsapp,
+                    label = { Text("WhatsApp number") }, singleLine = true,
+                    placeholder = { Text("60123456789") },
+                    keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Phone),
+                    modifier = Modifier.weight(1f)
+                )
+            }
+            Spacer(Modifier.height(8.dp))
+            OutlinedTextField(
+                value = websiteUrl, onValueChange = vm::setWebsiteUrl,
+                label = { Text("Website link") }, singleLine = true,
+                modifier = Modifier.fillMaxWidth()
+            )
+            Spacer(Modifier.height(8.dp))
+            OutlinedTextField(
+                value = googleMapsUrl, onValueChange = vm::setGoogleMapsUrl,
+                label = { Text("Google Maps link") }, singleLine = true,
+                modifier = Modifier.fillMaxWidth()
+            )
+            Spacer(Modifier.height(8.dp))
+            OutlinedTextField(
+                value = openingHours, onValueChange = vm::setOpeningHours,
+                label = { Text("Opening hours (e.g. Mon–Sat 10am–9pm)") },
+                singleLine = true,
+                modifier = Modifier.fillMaxWidth()
+            )
+
+            SectionTitle("Repair services *")
+            FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                RepairTypes.ALL.forEach { type ->
+                    FilterChip(
+                        selected = type in services,
+                        onClick = { vm.toggleService(type) },
+                        label = { Text(type) }
+                    )
+                }
+            }
+
+            if (services.isNotEmpty()) {
+                SectionTitle("Prices (RM, optional)")
+                services.sorted().forEach { service ->
+                    OutlinedTextField(
+                        value = prices[service].orEmpty(),
+                        onValueChange = { vm.setPrice(service, it) },
+                        label = { Text(service) },
+                        singleLine = true,
+                        keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Number),
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .padding(bottom = 8.dp)
+                    )
+                }
+            }
+
+            SectionTitle("Shop photos (${photoUris.size}/${RegisterShopViewModel.MAX_PHOTOS})")
+            LazyRow(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
+                item {
+                    Card(
+                        onClick = {
+                            photoPicker.launch(
+                                PickVisualMediaRequest(ActivityResultContracts.PickVisualMedia.ImageOnly)
+                            )
+                        }
+                    ) {
+                        Column(
+                            modifier = Modifier.padding(24.dp),
+                            horizontalAlignment = Alignment.CenterHorizontally
+                        ) {
+                            Icon(Icons.Filled.AddAPhoto, contentDescription = "Add photos")
+                            Spacer(Modifier.height(4.dp))
+                            Text("Add", style = MaterialTheme.typography.bodySmall)
+                        }
+                    }
+                }
+                items(photoUris) { uri ->
+                    Box {
+                        AsyncImage(
+                            model = uri,
+                            contentDescription = "Shop photo",
+                            contentScale = ContentScale.Crop,
+                            modifier = Modifier
+                                .size(110.dp)
+                                .clip(RoundedCornerShape(10.dp))
+                        )
+                        IconButton(
+                            onClick = { vm.removePhoto(uri) },
+                            modifier = Modifier.align(Alignment.TopEnd)
+                        ) {
+                            Icon(Icons.Filled.Close, contentDescription = "Remove photo")
+                        }
+                    }
+                }
+            }
+
+            Spacer(Modifier.height(20.dp))
+            Button(
+                onClick = vm::submit,
+                enabled = !submitting,
+                modifier = Modifier.fillMaxWidth()
+            ) {
+                if (submitting) {
+                    CircularProgressIndicator(
+                        modifier = Modifier.padding(end = 8.dp),
+                        strokeWidth = 2.dp
+                    )
+                }
+                Text("Register shop")
+            }
+            Text(
+                text = "One shop per account in this version.",
+                style = MaterialTheme.typography.bodySmall,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+                modifier = Modifier
+                    .padding(top = 8.dp)
+                    .align(Alignment.CenterHorizontally)
+            )
+            Spacer(Modifier.height(24.dp))
+        }
+    }
+}
