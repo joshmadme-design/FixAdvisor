@@ -1,1 +1,160 @@
-cGFja2FnZSBjb20uc2hhaGFiLmZpeGFkdmlzb3IudWkudmlld21vZGVsCgppbXBvcnQgYW5kcm9pZHgubGlmZWN5Y2xlLlZpZXdNb2RlbAppbXBvcnQgYW5kcm9pZHgubGlmZWN5Y2xlLnZpZXdNb2RlbFNjb3BlCmltcG9ydCBjb20uc2hhaGFiLmZpeGFkdmlzb3IuZGF0YS5tb2RlbHMuUmV2aWV3CmltcG9ydCBjb20uc2hhaGFiLmZpeGFkdmlzb3IuZGF0YS5tb2RlbHMuU2hvcAppbXBvcnQgY29tLnNoYWhhYi5maXhhZHZpc29yLmRhdGEucmVwby5BdXRoTWFuYWdlcgppbXBvcnQgY29tLnNoYWhhYi5maXhhZHZpc29yLmRhdGEucmVwby5SZXZpZXdSZXBvc2l0b3J5CmltcG9ydCBjb20uc2hhaGFiLmZpeGFkdmlzb3IuZGF0YS5yZXBvLlNob3BSZXBvc2l0b3J5CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5NdXRhYmxlU3RhdGVGbG93CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5TaGFyaW5nU3RhcnRlZAppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuU3RhdGVGbG93CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5hc1N0YXRlRmxvdwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuZmlyc3QKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93Lm1hcAppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuc3RhdGVJbgppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmxhdW5jaAoKLyoqCiAqIFdyaXRlLWEtcmV2aWV3IGZvcm0gZm9yIG9uZSBzaG9wLgogKgogKiBQaGFzZSAxIHJ1bGUgKGFwcHJveGltYXRpb24gb2YgIm9uZSByZXZpZXcgcGVyIHJlcGFpciIpOiBvbmUgcmV2aWV3IHBlcgogKiB1c2VyIHBlciBzaG9wLiBUaGUgY2hlY2sgcnVucyBhZ2FpbnN0IHRoZSBzaG9wJ3MgcmV2aWV3IGxpc3QgYmVmb3JlIHN1Ym1pdC4KICovCmNsYXNzIFdyaXRlUmV2aWV3Vmlld01vZGVsKAogICAgcHJpdmF0ZSB2YWwgcmV2aWV3UmVwb3NpdG9yeTogUmV2aWV3UmVwb3NpdG9yeSwKICAgIHNob3BSZXBvc2l0b3J5OiBTaG9wUmVwb3NpdG9yeSwKICAgIHZhbCBhdXRoTWFuYWdlcjogQXV0aE1hbmFnZXIsCiAgICBwcml2YXRlIHZhbCBzaG9wSWQ6IFN0cmluZywKICAgIHByZWZpbGxlZENvZGU6IFN0cmluZz8KKSA6IFZpZXdNb2RlbCgpIHsKCiAgICB2YWwgc2hvcDogU3RhdGVGbG93PFNob3A/PiA9IHNob3BSZXBvc2l0b3J5Lm9ic2VydmVTaG9wcygpCiAgICAgICAgLm1hcCB7IGxpc3QgLT4gbGlzdC5maW5kIHsgaXQuaWQgPT0gc2hvcElkIH0gfQogICAgICAgIC5zdGF0ZUluKHZpZXdNb2RlbFNjb3BlLCBTaGFyaW5nU3RhcnRlZC5XaGlsZVN1YnNjcmliZWQoNV8wMDApLCBudWxsKQoKICAgIHByaXZhdGUgdmFsIHN0YXJzRmxvdyA9IE11dGFibGVTdGF0ZUZsb3coMCkKICAgIHZhbCBzdGFyc1N0YXRlOiBTdGF0ZUZsb3c8SW50PiA9IHN0YXJzRmxvdy5hc1N0YXRlRmxvdygpCgogICAgcHJpdmF0ZSB2YWwgcmVwYWlyVHlwZUZsb3cgPSBNdXRhYmxlU3RhdGVGbG93KCIiKQogICAgdmFsIHJlcGFpclR5cGVTdGF0ZTogU3RhdGVGbG93PFN0cmluZz4gPSByZXBhaXJUeXBlRmxvdy5hc1N0YXRlRmxvdygpCgogICAgcHJpdmF0ZSB2YWwgcGhvbmVNb2RlbEZsb3cgPSBNdXRhYmxlU3RhdGVGbG93KCIiKQogICAgdmFsIHBob25lTW9kZWxTdGF0ZTogU3RhdGVGbG93PFN0cmluZz4gPSBwaG9uZU1vZGVsRmxvdy5hc1N0YXRlRmxvdygpCgogICAgcHJpdmF0ZSB2YWwgcHJpY2VQYWlkRmxvdyA9IE11dGFibGVTdGF0ZUZsb3coIiIpCiAgICB2YWwgcHJpY2VQYWlkU3RhdGU6IFN0YXRlRmxvdzxTdHJpbmc+ID0gcHJpY2VQYWlkRmxvdy5hc1N0YXRlRmxvdygpCgogICAgcHJpdmF0ZSB2YWwgdGltZVRha2VuRmxvdyA9IE11dGFibGVTdGF0ZUZsb3coIiIpCiAgICB2YWwgdGltZVRha2VuU3RhdGU6IFN0YXRlRmxvdzxTdHJpbmc+ID0gdGltZVRha2VuRmxvdy5hc1N0YXRlRmxvdygpCgogICAgcHJpdmF0ZSB2YWwgcGFydHNRdWFsaXR5RmxvdyA9IE11dGFibGVTdGF0ZUZsb3coIiIpCiAgICB2YWwgcGFydHNRdWFsaXR5U3RhdGU6IFN0YXRlRmxvdzxTdHJpbmc+ID0gcGFydHNRdWFsaXR5Rmxvdy5hc1N0YXRlRmxvdygpCgogICAgcHJpdmF0ZSB2YWwgd291bGRSZXR1cm5GbG93ID0gTXV0YWJsZVN0YXRlRmxvdyh0cnVlKQogICAgdmFsIHdvdWxkUmV0dXJuU3RhdGU6IFN0YXRlRmxvdzxCb29sZWFuPiA9IHdvdWxkUmV0dXJuRmxvdy5hc1N0YXRlRmxvdygpCgogICAgcHJpdmF0ZSB2YWwgdGV4dEZsb3cgPSBNdXRhYmxlU3RhdGVGbG93KCIiKQogICAgdmFsIHRleHRTdGF0ZTogU3RhdGVGbG93PFN0cmluZz4gPSB0ZXh0Rmxvdy5hc1N0YXRlRmxvdygpCgogICAgcHJpdmF0ZSB2YWwgdmVyaWZpY2F0aW9uQ29kZUZsb3cgPSBNdXRhYmxlU3RhdGVGbG93KHByZWZpbGxlZENvZGUub3JFbXB0eSgpKQogICAgdmFsIHZlcmlmaWNhdGlvbkNvZGVTdGF0ZTogU3RhdGVGbG93PFN0cmluZz4gPSB2ZXJpZmljYXRpb25Db2RlRmxvdy5hc1N0YXRlRmxvdygpCgogICAgcHJpdmF0ZSB2YWwgX2FscmVhZHlSZXZpZXdlZCA9IE11dGFibGVTdGF0ZUZsb3coZmFsc2UpCiAgICB2YWwgYWxyZWFkeVJldmlld2VkOiBTdGF0ZUZsb3c8Qm9vbGVhbj4gPSBfYWxyZWFkeVJldmlld2VkLmFzU3RhdGVGbG93KCkKCiAgICBwcml2YXRlIHZhbCBfc3VibWl0dGluZyA9IE11dGFibGVTdGF0ZUZsb3coZmFsc2UpCiAgICB2YWwgc3VibWl0dGluZzogU3RhdGVGbG93PEJvb2xlYW4+ID0gX3N1Ym1pdHRpbmcuYXNTdGF0ZUZsb3coKQoKICAgIHByaXZhdGUgdmFsIF9tZXNzYWdlID0gTXV0YWJsZVN0YXRlRmxvdzxTdHJpbmc/PihudWxsKQogICAgdmFsIG1lc3NhZ2U6IFN0YXRlRmxvdzxTdHJpbmc/PiA9IF9tZXNzYWdlLmFzU3RhdGVGbG93KCkKCiAgICBwcml2YXRlIHZhbCBfZG9uZSA9IE11dGFibGVTdGF0ZUZsb3coZmFsc2UpCiAgICB2YWwgZG9uZTogU3RhdGVGbG93PEJvb2xlYW4+ID0gX2RvbmUuYXNTdGF0ZUZsb3coKQoKICAgIGZ1biBzZXRTdGFycyh2OiBJbnQpIHsgc3RhcnNGbG93LnZhbHVlID0gdi5jb2VyY2VJbigwLCA1KSB9CiAgICBmdW4gc2V0UmVwYWlyVHlwZSh2OiBTdHJpbmcpIHsgcmVwYWlyVHlwZUZsb3cudmFsdWUgPSB2IH0KICAgIGZ1biBzZXRQaG9uZU1vZGVsKHY6IFN0cmluZykgeyBwaG9uZU1vZGVsRmxvdy52YWx1ZSA9IHYgfQogICAgZnVuIHNldFByaWNlUGFpZCh2OiBTdHJpbmcpIHsgcHJpY2VQYWlkRmxvdy52YWx1ZSA9IHYgfQogICAgZnVuIHNldFRpbWVUYWtlbih2OiBTdHJpbmcpIHsgdGltZVRha2VuRmxvdy52YWx1ZSA9IHYgfQogICAgZnVuIHNldFBhcnRzUXVhbGl0eSh2OiBTdHJpbmcpIHsgcGFydHNRdWFsaXR5Rmxvdy52YWx1ZSA9IHYgfQogICAgZnVuIHNldFdvdWxkUmV0dXJuKHY6IEJvb2xlYW4pIHsgd291bGRSZXR1cm5GbG93LnZhbHVlID0gdiB9CiAgICBmdW4gc2V0VGV4dCh2OiBTdHJpbmcpIHsgdGV4dEZsb3cudmFsdWUgPSB2IH0KICAgIGZ1biBzZXRWZXJpZmljYXRpb25Db2RlKHY6IFN0cmluZykgeyB2ZXJpZmljYXRpb25Db2RlRmxvdy52YWx1ZSA9IHYgfQogICAgZnVuIGNsZWFyTWVzc2FnZSgpIHsgX21lc3NhZ2UudmFsdWUgPSBudWxsIH0KCiAgICBmdW4gc3VibWl0KCkgewogICAgICAgIC8vIEd1ZXN0IG1vZGU6IG5vIHNpZ24taW4gd2FsbCDigJQgdGhlIGFwcCBydW5zIG9uIGEgcGVyLWRldmljZSBndWVzdCBpZGVudGl0eS4KICAgICAgICB2YWwgdXNlciA9IGF1dGhNYW5hZ2VyLmFwcFVzZXIKICAgICAgICBpZiAoX2FscmVhZHlSZXZpZXdlZC52YWx1ZSkgewogICAgICAgICAgICBfbWVzc2FnZS52YWx1ZSA9ICJZb3UgaGF2ZSBhbHJlYWR5IHJldmlld2VkIHRoaXMgc2hvcC4iCiAgICAgICAgICAgIHJldHVybgogICAgICAgIH0KICAgICAgICBpZiAoc3RhcnNGbG93LnZhbHVlICFpbiAxLi41KSB7CiAgICAgICAgICAgIF9tZXNzYWdlLnZhbHVlID0gIlBsZWFzZSB0YXAgdGhlIHN0YXJzIHRvIHJhdGUgdGhpcyBzaG9wLiIKICAgICAgICAgICAgcmV0dXJuCiAgICAgICAgfQogICAgICAgIGlmIChyZXBhaXJUeXBlRmxvdy52YWx1ZS5pc0JsYW5rKCkpIHsKICAgICAgICAgICAgX21lc3NhZ2UudmFsdWUgPSAiUGxlYXNlIGNob29zZSB0aGUgcmVwYWlyIHR5cGUuIgogICAgICAgICAgICByZXR1cm4KICAgICAgICB9CiAgICAgICAgaWYgKHRleHRGbG93LnZhbHVlLmlzQmxhbmsoKSkgewogICAgICAgICAgICBfbWVzc2FnZS52YWx1ZSA9ICJQbGVhc2Ugd3JpdGUgYSBmZXcgd29yZHMgYWJvdXQgeW91ciByZXBhaXIuIgogICAgICAgICAgICByZXR1cm4KICAgICAgICB9CiAgICAgICAgdmFsIHNob3BWYWx1ZSA9IHNob3AudmFsdWUgPzogcnVuIHsKICAgICAgICAgICAgX21lc3NhZ2UudmFsdWUgPSAiU2hvcCBpcyBzdGlsbCBsb2FkaW5nIOKAlCBwbGVhc2Ugd2FpdCBhIG1vbWVudC4iCiAgICAgICAgICAgIHJldHVybgogICAgICAgIH0KICAgICAgICB2YWwgZW50ZXJlZENvZGUgPSB2ZXJpZmljYXRpb25Db2RlRmxvdy52YWx1ZS50cmltKCkKICAgICAgICB2YWwgdmVyaWZpZWQgPSBlbnRlcmVkQ29kZS5pc05vdEVtcHR5KCkgJiYgZW50ZXJlZENvZGUgPT0gc2hvcFZhbHVlLnZlcmlmaWNhdGlvbkNvZGUKICAgICAgICBpZiAoZW50ZXJlZENvZGUuaXNOb3RFbXB0eSgpICYmICF2ZXJpZmllZCkgewogICAgICAgICAgICBfbWVzc2FnZS52YWx1ZSA9ICJUaGF0IGNvZGUgZG9lc24ndCBtYXRjaCB0aGlzIHNob3Ag4oCUIHJldmlldyBzYXZlZCB3aXRob3V0IHRoZSB2ZXJpZmllZCB0aWNrLiIKICAgICAgICB9CiAgICAgICAgdmFsIGF1dGhvck5hbWUgPSB1c2VyLmRpc3BsYXlOYW1lPy50YWtlSWYgeyBpdC5pc05vdEJsYW5rKCkgfQogICAgICAgICAgICA/OiB1c2VyLmVtYWlsPy5zdWJzdHJpbmdCZWZvcmUoIkAiKS5vckVtcHR5KCkKICAgICAgICB2YWwgcmV2aWV3ID0gUmV2aWV3KAogICAgICAgICAgICBzaG9wSWQgPSBzaG9wSWQsCiAgICAgICAgICAgIGF1dGhvclVpZCA9IHVzZXIudWlkLAogICAgICAgICAgICBhdXRob3JOYW1lID0gYXV0aG9yTmFtZSwKICAgICAgICAgICAgc3RhcnMgPSBzdGFyc0Zsb3cudmFsdWUsCiAgICAgICAgICAgIHJlcGFpclR5cGUgPSByZXBhaXJUeXBlRmxvdy52YWx1ZSwKICAgICAgICAgICAgcGhvbmVNb2RlbCA9IHBob25lTW9kZWxGbG93LnZhbHVlLnRyaW0oKSwKICAgICAgICAgICAgcHJpY2VQYWlkID0gcHJpY2VQYWlkRmxvdy52YWx1ZS50cmltKCkudG9Eb3VibGVPck51bGwoKT8udGFrZUlmIHsgaXQgPj0gMCB9LAogICAgICAgICAgICB0aW1lVGFrZW4gPSB0aW1lVGFrZW5GbG93LnZhbHVlLnRyaW0oKSwKICAgICAgICAgICAgcGFydHNRdWFsaXR5ID0gcGFydHNRdWFsaXR5Rmxvdy52YWx1ZSwKICAgICAgICAgICAgd291bGRSZXR1cm4gPSB3b3VsZFJldHVybkZsb3cudmFsdWUsCiAgICAgICAgICAgIHRleHQgPSB0ZXh0Rmxvdy52YWx1ZS50cmltKCksCiAgICAgICAgICAgIHZlcmlmaWVkID0gdmVyaWZpZWQKICAgICAgICApCiAgICAgICAgX3N1Ym1pdHRpbmcudmFsdWUgPSB0cnVlCiAgICAgICAgdmlld01vZGVsU2NvcGUubGF1bmNoIHsKICAgICAgICAgICAgLy8gT25lIHJldmlldyBwZXIgdXNlciBwZXIgc2hvcDogY2hlY2sgdGhlIGxpdmUgbGlzdCBvbmNlIGJlZm9yZSB3cml0aW5nLgogICAgICAgICAgICB2YWwgZXhpc3RpbmcgPSByZXZpZXdSZXBvc2l0b3J5Lm9ic2VydmVSZXZpZXdzRm9yU2hvcChzaG9wSWQpCiAgICAgICAgICAgICAgICAuZmlyc3QoKQogICAgICAgICAgICAgICAgLmFueSB7IGl0LmF1dGhvclVpZCA9PSB1c2VyLnVpZCB9CiAgICAgICAgICAgIGlmIChleGlzdGluZykgewogICAgICAgICAgICAgICAgX2FscmVhZHlSZXZpZXdlZC52YWx1ZSA9IHRydWUKICAgICAgICAgICAgICAgIF9zdWJtaXR0aW5nLnZhbHVlID0gZmFsc2UKICAgICAgICAgICAgICAgIF9tZXNzYWdlLnZhbHVlID0gIllvdSBoYXZlIGFscmVhZHkgcmV2aWV3ZWQgdGhpcyBzaG9wLiIKICAgICAgICAgICAgICAgIHJldHVybkBsYXVuY2gKICAgICAgICAgICAgfQogICAgICAgICAgICByZXZpZXdSZXBvc2l0b3J5LndyaXRlUmV2aWV3KHJldmlldykKICAgICAgICAgICAgICAgIC5vblN1Y2Nlc3MgeyBfZG9uZS52YWx1ZSA9IHRydWUgfQogICAgICAgICAgICAgICAgLm9uRmFpbHVyZSB7IF9tZXNzYWdlLnZhbHVlID0gaXQubWVzc2FnZSA/OiAiQ291bGQgbm90IHNhdmUgeW91ciByZXZpZXcuIiB9CiAgICAgICAgICAgIF9zdWJtaXR0aW5nLnZhbHVlID0gZmFsc2UKICAgICAgICB9CiAgICB9CgogICAgaW5pdCB7CiAgICAgICAgLy8gUHJlLWNoZWNrIHNvIHRoZSBzY3JlZW4gY2FuIGltbWVkaWF0ZWx5IGV4cGxhaW4gdGhlIG9uZS1yZXZpZXcgcnVsZS4KICAgICAgICB2aWV3TW9kZWxTY29wZS5sYXVuY2ggewogICAgICAgICAgICB2YWwgdWlkID0gYXV0aE1hbmFnZXIuYXBwVXNlci51aWQKICAgICAgICAgICAgdmFsIGV4aXN0aW5nID0gcmV2aWV3UmVwb3NpdG9yeS5vYnNlcnZlUmV2aWV3c0ZvclNob3Aoc2hvcElkKQogICAgICAgICAgICAgICAgLmZpcnN0KCkKICAgICAgICAgICAgICAgIC5hbnkgeyBpdC5hdXRob3JVaWQgPT0gdWlkIH0KICAgICAgICAgICAgX2FscmVhZHlSZXZpZXdlZC52YWx1ZSA9IGV4aXN0aW5nCiAgICAgICAgfQogICAgfQp9Cg==
+package com.shahab.fixadvisor.ui.viewmodel
+
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.viewModelScope
+import com.shahab.fixadvisor.data.models.Review
+import com.shahab.fixadvisor.data.models.Shop
+import com.shahab.fixadvisor.data.repo.AuthManager
+import com.shahab.fixadvisor.data.repo.ReviewRepository
+import com.shahab.fixadvisor.data.repo.ShopRepository
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.SharingStarted
+import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.flow.first
+import kotlinx.coroutines.flow.map
+import kotlinx.coroutines.flow.stateIn
+import kotlinx.coroutines.launch
+
+/**
+ * Write-a-review form for one shop.
+ *
+ * Phase 1 rule (approximation of "one review per repair"): one review per
+ * user per shop. The check runs against the shop's review list before submit.
+ */
+class WriteReviewViewModel(
+    private val reviewRepository: ReviewRepository,
+    shopRepository: ShopRepository,
+    val authManager: AuthManager,
+    private val shopId: String,
+    prefilledCode: String?
+) : ViewModel() {
+
+    val shop: StateFlow<Shop?> = shopRepository.observeShops()
+        .map { list -> list.find { it.id == shopId } }
+        .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), null)
+
+    private val starsFlow = MutableStateFlow(0)
+    val starsState: StateFlow<Int> = starsFlow.asStateFlow()
+
+    private val repairTypeFlow = MutableStateFlow("")
+    val repairTypeState: StateFlow<String> = repairTypeFlow.asStateFlow()
+
+    private val phoneModelFlow = MutableStateFlow("")
+    val phoneModelState: StateFlow<String> = phoneModelFlow.asStateFlow()
+
+    private val pricePaidFlow = MutableStateFlow("")
+    val pricePaidState: StateFlow<String> = pricePaidFlow.asStateFlow()
+
+    private val timeTakenFlow = MutableStateFlow("")
+    val timeTakenState: StateFlow<String> = timeTakenFlow.asStateFlow()
+
+    private val partsQualityFlow = MutableStateFlow("")
+    val partsQualityState: StateFlow<String> = partsQualityFlow.asStateFlow()
+
+    private val wouldReturnFlow = MutableStateFlow(true)
+    val wouldReturnState: StateFlow<Boolean> = wouldReturnFlow.asStateFlow()
+
+    private val textFlow = MutableStateFlow("")
+    val textState: StateFlow<String> = textFlow.asStateFlow()
+
+    private val verificationCodeFlow = MutableStateFlow(prefilledCode.orEmpty())
+    val verificationCodeState: StateFlow<String> = verificationCodeFlow.asStateFlow()
+
+    private val _alreadyReviewed = MutableStateFlow(false)
+    val alreadyReviewed: StateFlow<Boolean> = _alreadyReviewed.asStateFlow()
+
+    private val _submitting = MutableStateFlow(false)
+    val submitting: StateFlow<Boolean> = _submitting.asStateFlow()
+
+    private val _message = MutableStateFlow<String?>(null)
+    val message: StateFlow<String?> = _message.asStateFlow()
+
+    private val _done = MutableStateFlow(false)
+    val done: StateFlow<Boolean> = _done.asStateFlow()
+
+    fun setStars(v: Int) { starsFlow.value = v.coerceIn(0, 5) }
+    fun setRepairType(v: String) { repairTypeFlow.value = v }
+    fun setPhoneModel(v: String) { phoneModelFlow.value = v }
+    fun setPricePaid(v: String) { pricePaidFlow.value = v }
+    fun setTimeTaken(v: String) { timeTakenFlow.value = v }
+    fun setPartsQuality(v: String) { partsQualityFlow.value = v }
+    fun setWouldReturn(v: Boolean) { wouldReturnFlow.value = v }
+    fun setText(v: String) { textFlow.value = v }
+    fun setVerificationCode(v: String) { verificationCodeFlow.value = v }
+    fun clearMessage() { _message.value = null }
+
+    fun submit() {
+        // Guest mode: no sign-in wall — the app runs on a per-device guest identity.
+        val user = authManager.appUser
+        if (_alreadyReviewed.value) {
+            _message.value = "You have already reviewed this shop."
+            return
+        }
+        if (starsFlow.value !in 1..5) {
+            _message.value = "Please tap the stars to rate this shop."
+            return
+        }
+        if (repairTypeFlow.value.isBlank()) {
+            _message.value = "Please choose the repair type."
+            return
+        }
+        if (textFlow.value.isBlank()) {
+            _message.value = "Please write a few words about your repair."
+            return
+        }
+        val shopValue = shop.value ?: run {
+            _message.value = "Shop is still loading — please wait a moment."
+            return
+        }
+        val enteredCode = verificationCodeFlow.value.trim()
+        val verified = enteredCode.isNotEmpty() && enteredCode == shopValue.verificationCode
+        if (enteredCode.isNotEmpty() && !verified) {
+            _message.value = "That code doesn't match this shop — review saved without the verified tick."
+        }
+        val authorName = user.displayName?.takeIf { it.isNotBlank() }
+            ?: user.email?.substringBefore("@").orEmpty()
+        val review = Review(
+            shopId = shopId,
+            authorUid = user.uid,
+            authorName = authorName,
+            stars = starsFlow.value,
+            repairType = repairTypeFlow.value,
+            phoneModel = phoneModelFlow.value.trim(),
+            pricePaid = pricePaidFlow.value.trim().toDoubleOrNull()?.takeIf { it >= 0 },
+            timeTaken = timeTakenFlow.value.trim(),
+            partsQuality = partsQualityFlow.value,
+            wouldReturn = wouldReturnFlow.value,
+            text = textFlow.value.trim(),
+            verified = verified
+        )
+        _submitting.value = true
+        viewModelScope.launch {
+            // One review per user per shop: check the live list once before writing.
+            val existing = reviewRepository.observeReviewsForShop(shopId)
+                .first()
+                .any { it.authorUid == user.uid }
+            if (existing) {
+                _alreadyReviewed.value = true
+                _submitting.value = false
+                _message.value = "You have already reviewed this shop."
+                return@launch
+            }
+            reviewRepository.writeReview(review)
+                .onSuccess { _done.value = true }
+                .onFailure { _message.value = it.message ?: "Could not save your review." }
+            _submitting.value = false
+        }
+    }
+
+    init {
+        // Pre-check so the screen can immediately explain the one-review rule.
+        viewModelScope.launch {
+            val uid = authManager.appUser.uid
+            val existing = reviewRepository.observeReviewsForShop(shopId)
+                .first()
+                .any { it.authorUid == uid }
+            _alreadyReviewed.value = existing
+        }
+    }
+}
