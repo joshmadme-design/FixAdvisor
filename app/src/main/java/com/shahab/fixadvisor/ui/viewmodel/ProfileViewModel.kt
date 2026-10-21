@@ -104,7 +104,7 @@ class ProfileViewModel(
     }
 
     fun removeFavorite(shopId: String) {
-        val uid = authManager.currentUid ?: return
+        val uid = authManager.appUser.uid
         viewModelScope.launch {
             runCatching { userRepository.removeFavorite(uid, shopId) }
                 .onFailure { _message.value = "Could not remove favourite." }
