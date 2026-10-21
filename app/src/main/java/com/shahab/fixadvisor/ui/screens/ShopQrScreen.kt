@@ -56,7 +56,7 @@ fun ShopQrScreen(
     )
     val shop by vm.shop.collectAsState()
     val qrBitmap by vm.qrBitmap.collectAsState()
-    val user by vm.authManager.authState.collectAsState()
+    val user = vm.authManager.appUser
 
     Scaffold(
         topBar = {
@@ -73,11 +73,7 @@ fun ShopQrScreen(
         val currentShop = shop
         when {
             currentShop == null -> LoadingBox(Modifier.padding(padding))
-            user == null -> EmptyState(
-                "Sign in as the shop owner to see the counter QR code.",
-                modifier = Modifier.padding(padding)
-            )
-            user?.uid != currentShop.ownerUid -> EmptyState(
+            user.uid != currentShop.ownerUid -> EmptyState(
                 "Only the shop owner can see this shop's counter QR code.",
                 modifier = Modifier.padding(padding)
             )
