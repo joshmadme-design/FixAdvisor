@@ -1,1 +1,149 @@
-cGFja2FnZSBjb20uc2hhaGFiLmZpeGFkdmlzb3IudWkudmlld21vZGVsCgppbXBvcnQgYW5kcm9pZC5uZXQuVXJpCmltcG9ydCBhbmRyb2lkeC5saWZlY3ljbGUuVmlld01vZGVsCmltcG9ydCBhbmRyb2lkeC5saWZlY3ljbGUudmlld01vZGVsU2NvcGUKaW1wb3J0IGNvbS5zaGFoYWIuZml4YWR2aXNvci5kYXRhLnJlcG8uQXV0aE1hbmFnZXIKaW1wb3J0IGNvbS5zaGFoYWIuZml4YWR2aXNvci5kYXRhLnJlcG8uU2hvcFJlcG9zaXRvcnkKaW1wb3J0IGNvbS5zaGFoYWIuZml4YWR2aXNvci5kYXRhLnJlcG8uVXNlclJlcG9zaXRvcnkKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93Lk11dGFibGVTdGF0ZUZsb3cKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93LlN0YXRlRmxvdwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuYXNTdGF0ZUZsb3cKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93LmZpcnN0CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMubGF1bmNoCgovKiogU2hvcCByZWdpc3RyYXRpb24gZm9ybS4gUGhhc2UgMTogb25lIHNob3AgcGVyIHVzZXIuICovCmNsYXNzIFJlZ2lzdGVyU2hvcFZpZXdNb2RlbCgKICAgIHByaXZhdGUgdmFsIHNob3BSZXBvc2l0b3J5OiBTaG9wUmVwb3NpdG9yeSwKICAgIHByaXZhdGUgdmFsIHVzZXJSZXBvc2l0b3J5OiBVc2VyUmVwb3NpdG9yeSwKICAgIHZhbCBhdXRoTWFuYWdlcjogQXV0aE1hbmFnZXIKKSA6IFZpZXdNb2RlbCgpIHsKCiAgICBjb21wYW5pb24gb2JqZWN0IHsKICAgICAgICBjb25zdCB2YWwgTUFYX1BIT1RPUyA9IDYKICAgIH0KCiAgICBwcml2YXRlIHZhbCBuYW1lRmxvdyA9IE11dGFibGVTdGF0ZUZsb3coIiIpCiAgICB2YWwgbmFtZVN0YXRlOiBTdGF0ZUZsb3c8U3RyaW5nPiA9IG5hbWVGbG93LmFzU3RhdGVGbG93KCkKICAgIHByaXZhdGUgdmFsIGFkZHJlc3NGbG93ID0gTXV0YWJsZVN0YXRlRmxvdygiIikKICAgIHZhbCBhZGRyZXNzU3RhdGU6IFN0YXRlRmxvdzxTdHJpbmc+ID0gYWRkcmVzc0Zsb3cuYXNTdGF0ZUZsb3coKQogICAgcHJpdmF0ZSB2YWwgcGhvbmVGbG93ID0gTXV0YWJsZVN0YXRlRmxvdygiIikKICAgIHZhbCBwaG9uZVN0YXRlOiBTdGF0ZUZsb3c8U3RyaW5nPiA9IHBob25lRmxvdy5hc1N0YXRlRmxvdygpCiAgICBwcml2YXRlIHZhbCB3aGF0c2FwcEZsb3cgPSBNdXRhYmxlU3RhdGVGbG93KCIiKQogICAgdmFsIHdoYXRzYXBwU3RhdGU6IFN0YXRlRmxvdzxTdHJpbmc+ID0gd2hhdHNhcHBGbG93LmFzU3RhdGVGbG93KCkKICAgIHByaXZhdGUgdmFsIHdlYnNpdGVVcmxGbG93ID0gTXV0YWJsZVN0YXRlRmxvdygiIikKICAgIHZhbCB3ZWJzaXRlVXJsU3RhdGU6IFN0YXRlRmxvdzxTdHJpbmc+ID0gd2Vic2l0ZVVybEZsb3cuYXNTdGF0ZUZsb3coKQogICAgcHJpdmF0ZSB2YWwgZ29vZ2xlTWFwc1VybEZsb3cgPSBNdXRhYmxlU3RhdGVGbG93KCIiKQogICAgdmFsIGdvb2dsZU1hcHNVcmxTdGF0ZTogU3RhdGVGbG93PFN0cmluZz4gPSBnb29nbGVNYXBzVXJsRmxvdy5hc1N0YXRlRmxvdygpCiAgICBwcml2YXRlIHZhbCBvcGVuaW5nSG91cnNGbG93ID0gTXV0YWJsZVN0YXRlRmxvdygiIikKICAgIHZhbCBvcGVuaW5nSG91cnNTdGF0ZTogU3RhdGVGbG93PFN0cmluZz4gPSBvcGVuaW5nSG91cnNGbG93LmFzU3RhdGVGbG93KCkKCiAgICBwcml2YXRlIHZhbCBfc2VydmljZXMgPSBNdXRhYmxlU3RhdGVGbG93PFNldDxTdHJpbmc+PihlbXB0eVNldCgpKQogICAgdmFsIHNlcnZpY2VzOiBTdGF0ZUZsb3c8U2V0PFN0cmluZz4+ID0gX3NlcnZpY2VzLmFzU3RhdGVGbG93KCkKCiAgICAvKiogUHJpY2UgdGV4dCBwZXIgc2VsZWN0ZWQgc2VydmljZSAoUk0pLiAqLwogICAgcHJpdmF0ZSB2YWwgX3ByaWNlcyA9IE11dGFibGVTdGF0ZUZsb3c8TWFwPFN0cmluZywgU3RyaW5nPj4oZW1wdHlNYXAoKSkKICAgIHZhbCBwcmljZXM6IFN0YXRlRmxvdzxNYXA8U3RyaW5nLCBTdHJpbmc+PiA9IF9wcmljZXMuYXNTdGF0ZUZsb3coKQoKICAgIHByaXZhdGUgdmFsIF9waG90b1VyaXMgPSBNdXRhYmxlU3RhdGVGbG93PExpc3Q8VXJpPj4oZW1wdHlMaXN0KCkpCiAgICB2YWwgcGhvdG9VcmlzOiBTdGF0ZUZsb3c8TGlzdDxVcmk+PiA9IF9waG90b1VyaXMuYXNTdGF0ZUZsb3coKQoKICAgIHByaXZhdGUgdmFsIF9zdWJtaXR0aW5nID0gTXV0YWJsZVN0YXRlRmxvdyhmYWxzZSkKICAgIHZhbCBzdWJtaXR0aW5nOiBTdGF0ZUZsb3c8Qm9vbGVhbj4gPSBfc3VibWl0dGluZy5hc1N0YXRlRmxvdygpCgogICAgcHJpdmF0ZSB2YWwgX21lc3NhZ2UgPSBNdXRhYmxlU3RhdGVGbG93PFN0cmluZz8+KG51bGwpCiAgICB2YWwgbWVzc2FnZTogU3RhdGVGbG93PFN0cmluZz8+ID0gX21lc3NhZ2UuYXNTdGF0ZUZsb3coKQoKICAgIC8qKiBTZXQgdG8gdGhlIG5ldyBzaG9wIGlkIHdoZW4gcmVnaXN0cmF0aW9uIHN1Y2NlZWRzLiAqLwogICAgcHJpdmF0ZSB2YWwgX3JlZ2lzdGVyZWRTaG9wSWQgPSBNdXRhYmxlU3RhdGVGbG93PFN0cmluZz8+KG51bGwpCiAgICB2YWwgcmVnaXN0ZXJlZFNob3BJZDogU3RhdGVGbG93PFN0cmluZz8+ID0gX3JlZ2lzdGVyZWRTaG9wSWQuYXNTdGF0ZUZsb3coKQoKICAgIGZ1biBzZXROYW1lKHY6IFN0cmluZykgeyBuYW1lRmxvdy52YWx1ZSA9IHYgfQogICAgZnVuIHNldEFkZHJlc3ModjogU3RyaW5nKSB7IGFkZHJlc3NGbG93LnZhbHVlID0gdiB9CiAgICBmdW4gc2V0UGhvbmUodjogU3RyaW5nKSB7IHBob25lRmxvdy52YWx1ZSA9IHYgfQogICAgZnVuIHNldFdoYXRzYXBwKHY6IFN0cmluZykgeyB3aGF0c2FwcEZsb3cudmFsdWUgPSB2IH0KICAgIGZ1biBzZXRXZWJzaXRlVXJsKHY6IFN0cmluZykgeyB3ZWJzaXRlVXJsRmxvdy52YWx1ZSA9IHYgfQogICAgZnVuIHNldEdvb2dsZU1hcHNVcmwodjogU3RyaW5nKSB7IGdvb2dsZU1hcHNVcmxGbG93LnZhbHVlID0gdiB9CiAgICBmdW4gc2V0T3BlbmluZ0hvdXJzKHY6IFN0cmluZykgeyBvcGVuaW5nSG91cnNGbG93LnZhbHVlID0gdiB9CgogICAgZnVuIHRvZ2dsZVNlcnZpY2Uoc2VydmljZTogU3RyaW5nKSB7CiAgICAgICAgX3NlcnZpY2VzLnZhbHVlID0gaWYgKHNlcnZpY2UgaW4gX3NlcnZpY2VzLnZhbHVlKSB7CiAgICAgICAgICAgIF9zZXJ2aWNlcy52YWx1ZSAtIHNlcnZpY2UKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBfc2VydmljZXMudmFsdWUgKyBzZXJ2aWNlCiAgICAgICAgfQogICAgfQoKICAgIGZ1biBzZXRQcmljZShzZXJ2aWNlOiBTdHJpbmcsIHZhbHVlOiBTdHJpbmcpIHsKICAgICAgICBfcHJpY2VzLnZhbHVlID0gX3ByaWNlcy52YWx1ZSArIChzZXJ2aWNlIHRvIHZhbHVlKQogICAgfQoKICAgIGZ1biBhZGRQaG90b3ModXJpczogTGlzdDxVcmk+KSB7CiAgICAgICAgX3Bob3RvVXJpcy52YWx1ZSA9IChfcGhvdG9VcmlzLnZhbHVlICsgdXJpcykuZGlzdGluY3QoKS50YWtlKE1BWF9QSE9UT1MpCiAgICB9CgogICAgZnVuIHJlbW92ZVBob3RvKHVyaTogVXJpKSB7CiAgICAgICAgX3Bob3RvVXJpcy52YWx1ZSA9IF9waG90b1VyaXMudmFsdWUgLSB1cmkKICAgIH0KCiAgICBmdW4gY2xlYXJNZXNzYWdlKCkgeyBfbWVzc2FnZS52YWx1ZSA9IG51bGwgfQoKICAgIGZ1biBzdWJtaXQoKSB7CiAgICAgICAgLy8gR3Vlc3QgbW9kZTogbm8gc2lnbi1pbiB3YWxsIOKAlCB0aGUgYXBwIHJ1bnMgb24gYSBwZXItZGV2aWNlIGd1ZXN0IGlkZW50aXR5LgogICAgICAgIHZhbCB1c2VyID0gYXV0aE1hbmFnZXIuYXBwVXNlcgogICAgICAgIGlmIChuYW1lRmxvdy52YWx1ZS5pc0JsYW5rKCkpIHsKICAgICAgICAgICAgX21lc3NhZ2UudmFsdWUgPSAiU2hvcCBuYW1lIGlzIHJlcXVpcmVkLiIKICAgICAgICAgICAgcmV0dXJuCiAgICAgICAgfQogICAgICAgIGlmIChhZGRyZXNzRmxvdy52YWx1ZS5pc0JsYW5rKCkpIHsKICAgICAgICAgICAgX21lc3NhZ2UudmFsdWUgPSAiU2hvcCBhZGRyZXNzIGlzIHJlcXVpcmVkLiIKICAgICAgICAgICAgcmV0dXJuCiAgICAgICAgfQogICAgICAgIGlmIChfc2VydmljZXMudmFsdWUuaXNFbXB0eSgpKSB7CiAgICAgICAgICAgIF9tZXNzYWdlLnZhbHVlID0gIlBsZWFzZSBzZWxlY3QgYXQgbGVhc3Qgb25lIHJlcGFpciBzZXJ2aWNlLiIKICAgICAgICAgICAgcmV0dXJuCiAgICAgICAgfQogICAgICAgIHZhbCBwYXJzZWRQcmljZXMgPSBfc2VydmljZXMudmFsdWUubWFwTm90TnVsbCB7IHNlcnZpY2UgLT4KICAgICAgICAgICAgdmFsIHJhdyA9IF9wcmljZXMudmFsdWVbc2VydmljZV0/LnRyaW0oKS5vckVtcHR5KCkKICAgICAgICAgICAgaWYgKHJhdy5pc0VtcHR5KCkpIHJldHVybkBtYXBOb3ROdWxsIG51bGwKICAgICAgICAgICAgdmFsIHZhbHVlID0gcmF3LnRvRG91YmxlT3JOdWxsKCkKICAgICAgICAgICAgaWYgKHZhbHVlID09IG51bGwgfHwgdmFsdWUgPCAwKSB7CiAgICAgICAgICAgICAgICBfbWVzc2FnZS52YWx1ZSA9ICJQcmljZSBmb3IgXCIkc2VydmljZVwiIGlzIG5vdCBhIHZhbGlkIG51bWJlci4iCiAgICAgICAgICAgICAgICByZXR1cm4KICAgICAgICAgICAgfQogICAgICAgICAgICBzZXJ2aWNlIHRvIHZhbHVlCiAgICAgICAgfS50b01hcCgpCgogICAgICAgIF9zdWJtaXR0aW5nLnZhbHVlID0gdHJ1ZQogICAgICAgIHZpZXdNb2RlbFNjb3BlLmxhdW5jaCB7CiAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICB1c2VyUmVwb3NpdG9yeS5lbnN1cmVQcm9maWxlKHVzZXIpCiAgICAgICAgICAgICAgICB2YWwgcHJvZmlsZSA9IHVzZXJSZXBvc2l0b3J5Lm9ic2VydmVQcm9maWxlKHVzZXIudWlkKS5maXJzdCgpCiAgICAgICAgICAgICAgICBpZiAocHJvZmlsZT8ub3duZWRTaG9wSWQgIT0gbnVsbCkgewogICAgICAgICAgICAgICAgICAgIF9tZXNzYWdlLnZhbHVlID0gIllvdSBoYXZlIGFscmVhZHkgcmVnaXN0ZXJlZCBhIHNob3AuIgogICAgICAgICAgICAgICAgICAgIHJldHVybkBsYXVuY2gKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIHZhbCBzaG9wID0gc2hvcFJlcG9zaXRvcnkuY3JlYXRlU2hvcCgKICAgICAgICAgICAgICAgICAgICBvd25lclVpZCA9IHVzZXIudWlkLAogICAgICAgICAgICAgICAgICAgIG93bmVyRW1haWwgPSB1c2VyLmVtYWlsLm9yRW1wdHkoKSwKICAgICAgICAgICAgICAgICAgICBuYW1lID0gbmFtZUZsb3cudmFsdWUsCiAgICAgICAgICAgICAgICAgICAgYWRkcmVzcyA9IGFkZHJlc3NGbG93LnZhbHVlLAogICAgICAgICAgICAgICAgICAgIHBob25lID0gcGhvbmVGbG93LnZhbHVlLAogICAgICAgICAgICAgICAgICAgIHdoYXRzYXBwID0gd2hhdHNhcHBGbG93LnZhbHVlLAogICAgICAgICAgICAgICAgICAgIHdlYnNpdGVVcmwgPSB3ZWJzaXRlVXJsRmxvdy52YWx1ZSwKICAgICAgICAgICAgICAgICAgICBnb29nbGVNYXBzVXJsID0gZ29vZ2xlTWFwc1VybEZsb3cudmFsdWUsCiAgICAgICAgICAgICAgICAgICAgc2VydmljZXMgPSBfc2VydmljZXMudmFsdWUudG9MaXN0KCksCiAgICAgICAgICAgICAgICAgICAgcHJpY2VzID0gcGFyc2VkUHJpY2VzLAogICAgICAgICAgICAgICAgICAgIG9wZW5pbmdIb3VycyA9IG9wZW5pbmdIb3Vyc0Zsb3cudmFsdWUsCiAgICAgICAgICAgICAgICAgICAgcGhvdG9VcmlzID0gX3Bob3RvVXJpcy52YWx1ZQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgdXNlclJlcG9zaXRvcnkuc2V0T3duZWRTaG9wKHVzZXIudWlkLCBzaG9wLmlkKQogICAgICAgICAgICAgICAgX3JlZ2lzdGVyZWRTaG9wSWQudmFsdWUgPSBzaG9wLmlkCiAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgX21lc3NhZ2UudmFsdWUgPSBlLm1lc3NhZ2UgPzogIkNvdWxkIG5vdCByZWdpc3RlciB0aGUgc2hvcC4iCiAgICAgICAgICAgIH0gZmluYWxseSB7CiAgICAgICAgICAgICAgICBfc3VibWl0dGluZy52YWx1ZSA9IGZhbHNlCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9Cn0K
+package com.shahab.fixadvisor.ui.viewmodel
+
+import android.net.Uri
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.viewModelScope
+import com.shahab.fixadvisor.data.repo.AuthManager
+import com.shahab.fixadvisor.data.repo.ShopRepository
+import com.shahab.fixadvisor.data.repo.UserRepository
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.flow.first
+import kotlinx.coroutines.launch
+
+/** Shop registration form. Phase 1: one shop per user. */
+class RegisterShopViewModel(
+    private val shopRepository: ShopRepository,
+    private val userRepository: UserRepository,
+    val authManager: AuthManager
+) : ViewModel() {
+
+    companion object {
+        const val MAX_PHOTOS = 6
+    }
+
+    private val nameFlow = MutableStateFlow("")
+    val nameState: StateFlow<String> = nameFlow.asStateFlow()
+    private val addressFlow = MutableStateFlow("")
+    val addressState: StateFlow<String> = addressFlow.asStateFlow()
+    private val phoneFlow = MutableStateFlow("")
+    val phoneState: StateFlow<String> = phoneFlow.asStateFlow()
+    private val whatsappFlow = MutableStateFlow("")
+    val whatsappState: StateFlow<String> = whatsappFlow.asStateFlow()
+    private val websiteUrlFlow = MutableStateFlow("")
+    val websiteUrlState: StateFlow<String> = websiteUrlFlow.asStateFlow()
+    private val googleMapsUrlFlow = MutableStateFlow("")
+    val googleMapsUrlState: StateFlow<String> = googleMapsUrlFlow.asStateFlow()
+    private val openingHoursFlow = MutableStateFlow("")
+    val openingHoursState: StateFlow<String> = openingHoursFlow.asStateFlow()
+
+    private val _services = MutableStateFlow<Set<String>>(emptySet())
+    val services: StateFlow<Set<String>> = _services.asStateFlow()
+
+    /** Price text per selected service (RM). */
+    private val _prices = MutableStateFlow<Map<String, String>>(emptyMap())
+    val prices: StateFlow<Map<String, String>> = _prices.asStateFlow()
+
+    private val _photoUris = MutableStateFlow<List<Uri>>(emptyList())
+    val photoUris: StateFlow<List<Uri>> = _photoUris.asStateFlow()
+
+    private val _submitting = MutableStateFlow(false)
+    val submitting: StateFlow<Boolean> = _submitting.asStateFlow()
+
+    private val _message = MutableStateFlow<String?>(null)
+    val message: StateFlow<String?> = _message.asStateFlow()
+
+    /** Set to the new shop id when registration succeeds. */
+    private val _registeredShopId = MutableStateFlow<String?>(null)
+    val registeredShopId: StateFlow<String?> = _registeredShopId.asStateFlow()
+
+    fun setName(v: String) { nameFlow.value = v }
+    fun setAddress(v: String) { addressFlow.value = v }
+    fun setPhone(v: String) { phoneFlow.value = v }
+    fun setWhatsapp(v: String) { whatsappFlow.value = v }
+    fun setWebsiteUrl(v: String) { websiteUrlFlow.value = v }
+    fun setGoogleMapsUrl(v: String) { googleMapsUrlFlow.value = v }
+    fun setOpeningHours(v: String) { openingHoursFlow.value = v }
+
+    fun toggleService(service: String) {
+        _services.value = if (service in _services.value) {
+            _services.value - service
+        } else {
+            _services.value + service
+        }
+    }
+
+    fun setPrice(service: String, value: String) {
+        _prices.value = _prices.value + (service to value)
+    }
+
+    fun addPhotos(uris: List<Uri>) {
+        _photoUris.value = (_photoUris.value + uris).distinct().take(MAX_PHOTOS)
+    }
+
+    fun removePhoto(uri: Uri) {
+        _photoUris.value = _photoUris.value - uri
+    }
+
+    fun clearMessage() { _message.value = null }
+
+    fun submit() {
+        // Guest mode: no sign-in wall — the app runs on a per-device guest identity.
+        val user = authManager.appUser
+        if (nameFlow.value.isBlank()) {
+            _message.value = "Shop name is required."
+            return
+        }
+        if (addressFlow.value.isBlank()) {
+            _message.value = "Shop address is required."
+            return
+        }
+        if (_services.value.isEmpty()) {
+            _message.value = "Please select at least one repair service."
+            return
+        }
+        val parsedPrices = _services.value.mapNotNull { service ->
+            val raw = _prices.value[service]?.trim().orEmpty()
+            if (raw.isEmpty()) return@mapNotNull null
+            val value = raw.toDoubleOrNull()
+            if (value == null || value < 0) {
+                _message.value = "Price for \"$service\" is not a valid number."
+                return
+            }
+            service to value
+        }.toMap()
+
+        _submitting.value = true
+        viewModelScope.launch {
+            try {
+                userRepository.ensureProfile(user)
+                val profile = userRepository.observeProfile(user.uid).first()
+                if (profile?.ownedShopId != null) {
+                    _message.value = "You have already registered a shop."
+                    return@launch
+                }
+                val shop = shopRepository.createShop(
+                    ownerUid = user.uid,
+                    ownerEmail = user.email.orEmpty(),
+                    name = nameFlow.value,
+                    address = addressFlow.value,
+                    phone = phoneFlow.value,
+                    whatsapp = whatsappFlow.value,
+                    websiteUrl = websiteUrlFlow.value,
+                    googleMapsUrl = googleMapsUrlFlow.value,
+                    services = _services.value.toList(),
+                    prices = parsedPrices,
+                    openingHours = openingHoursFlow.value,
+                    photoUris = _photoUris.value
+                )
+                userRepository.setOwnedShop(user.uid, shop.id)
+                _registeredShopId.value = shop.id
+            } catch (e: Exception) {
+                _message.value = e.message ?: "Could not register the shop."
+            } finally {
+                _submitting.value = false
+            }
+        }
+    }
+}
